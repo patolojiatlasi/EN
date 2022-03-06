@@ -7,7 +7,7 @@ website:
   navbar:
     background: primary
     left:
-      - href: index.qmd
+      - href: index.md
         text: Home
       - about.qmd
       - tipfakultesi.qmd
