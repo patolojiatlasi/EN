@@ -1,5 +1,6 @@
 project:
   type: website
+  output-dir: docs
 
 website:
   title: "Patoloji Atlası"
@@ -36,8 +37,7 @@ format:
     link-external-filter: '^(?:http:|https:)\/\/www\.patolojiatlasi\.com\/'
     citations-hover: true
     footnotes-hover: true
-  pdf: default
-  epub: default
+
 
 bibliography: references.bib
 
