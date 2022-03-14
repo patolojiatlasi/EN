@@ -1,0 +1,11 @@
+## Mantarlar
+
+### Candida *albicans* in cervicovaginal smear
+
+<https://pathologyatlas.github.io/candidaalbicans/cervicovaginalsmear/viewer_z0.html>
+
+Mikroskopik görüntüleri inceleyin:
+
+<iframe src="https://pathologyatlas.github.io/candidaalbicans/cervicovaginalsmear/viewer_z0.html" style="height:400px;width:100%;">
+
+</iframe>

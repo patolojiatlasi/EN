@@ -1,1 +1,3 @@
-# patolojiatlasiV2
+# Patoloji Atlası
+
+[Patoloji Atlası]()

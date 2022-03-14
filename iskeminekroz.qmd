@@ -1,0 +1,15 @@
+# Hemodinamik Bozukluklar
+
+## İskemi ve Nekroz
+
+### Yağ nekrozu ve Sabunlaşma
+
+Yağ dokuda yağ nekrozu ve sabunlaşma
+
+<https://pathologyatlas.github.io/fat-necrosis/HE.html>
+
+Mikroskopik görüntüleri inceleyin:
+
+<iframe src="https://pathologyatlas.github.io/fat-necrosis/HE.html" style="height:400px;width:100%;">
+
+</iframe>

@@ -1,0 +1,46 @@
+# Hücre İçi Birikimler
+
+## Kolesterol Polibi
+
+
+- [https://pathologyatlas.github.io/cholesterolpolyp/HE.html](https://pathologyatlas.github.io/cholesterolpolyp/HE.html)
+
+- See Microscopy with viewer: 
+
+<iframe src="https://pathologyatlas.github.io/cholesterolpolyp/HE.html" style="height:400px;width:100%;"></iframe>
+
+
+
+## Glikojen Depo Hastalığı
+
+Karaciğer İğnde Biyopsisinde glikojen depo hastalığı
+
+**Hematoksilen Eozin**
+
+<https://pathologyatlas.github.io/glycogenstorage/HE.html>
+
+Mikroskopik görüntüleri inceleyin:
+
+<iframe src="https://pathologyatlas.github.io/glycogenstorage/HE.html" style="height:400px;width:100%;">
+
+</iframe>
+
+**PAS**
+
+<https://pathologyatlas.github.io/glycogenstorage/PAS.html>
+
+Mikroskopik görüntüleri inceleyin:
+
+<iframe src="https://pathologyatlas.github.io/glycogenstorage/PAS.html" style="height:400px;width:100%;">
+
+</iframe>
+
+**PASD**
+
+<https://pathologyatlas.github.io/glycogenstorage/PASD.html>
+
+Mikroskopik görüntüleri inceleyin:
+
+<iframe src="https://pathologyatlas.github.io/glycogenstorage/PASD.html" style="height:400px;width:100%;">
+
+</iframe>

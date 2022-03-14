@@ -1,0 +1,25 @@
+## Tamir Mekanizmaları
+
+### Fibrozis
+
+Kolesistit spesmeninde gelişmekte olan genç fibrozis
+
+<https://pathologyatlas.github.io/fibrosis/HE.html>
+
+Mikroskopik görüntüleri inceleyin:
+
+<iframe src="https://pathologyatlas.github.io/fibrosis/HE.html" style="height:400px;width:100%;">
+
+</iframe>
+
+### Keloid - Skar
+
+Keloid Skar oluşumu
+
+<https://pathologyatlas.github.io/keloid-scar/HE.html>
+
+Mikroskopik görüntüleri inceleyin:
+
+<iframe src="https://pathologyatlas.github.io/keloid-scar/HE.html" style="height:400px;width:100%;">
+
+</iframe>

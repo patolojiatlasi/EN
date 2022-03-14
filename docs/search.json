@@ -1,100 +1,30 @@
 [
   {
-    "objectID": "gastro.html",
-    "href": "gastro.html",
-    "title": "Patoloji Atlası",
-    "section": "",
-    "text": "Gastrointestinal Sistem Patolojisi\n\n\n\n\n\nSource Code\n# Gastrointestinal Sistem Patolojisi\n\n<iframe src=\"https://pathologyatlas.github.io/glycogenstorage/HE.html\" width=\"100%\" height=\"400px\"></iframe>"
-  },
-  {
-    "objectID": "meme.html",
-    "href": "meme.html",
-    "title": "Patoloji Atlası",
-    "section": "",
-    "text": "Meme Patolojisi\n\n\n\nSource Code\n# Meme Patolojisi"
-  },
-  {
-    "objectID": "referanslar.html",
-    "href": "referanslar.html",
-    "title": "Patoloji Atlası",
-    "section": "",
-    "text": "Referanslar\n\n\n\n\n\n\nSource Code\n# Referanslar {.unnumbered}\n\n::: {#refs}\n:::"
-  },
-  {
-    "objectID": "giris.html",
-    "href": "giris.html",
-    "title": "Patoloji Atlası",
-    "section": "",
-    "text": "Merhaba\n\n\n\nSource Code\n# Merhaba"
-  },
-  {
-    "objectID": "jineko.html",
-    "href": "jineko.html",
-    "title": "Patoloji Atlası",
-    "section": "",
-    "text": "Jinekopatoloji\n\n\n\nSource Code\n# Jinekopatoloji"
-  },
-  {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
-    "section": "",
-    "text": "About this site\n\n\nCode\n1 + 1\n\n\n[1] 2\n\n\n\n\n\nSource Code\n---\ntitle: \"About\"\n---\n\nAbout this site\n\n```{r}\n1 + 1\n```"
-  },
-  {
-    "objectID": "preface.html",
-    "href": "preface.html",
-    "title": "Patoloji Atlası",
-    "section": "",
-    "text": "Source Code"
-  },
-  {
-    "objectID": "uriner.html",
-    "href": "uriner.html",
-    "title": "Patoloji Atlası",
-    "section": "",
-    "text": "Uriner Sistem Patolojisi\n\n\n\nSource Code\n# Uriner Sistem Patolojisi"
-  },
-  {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Patoloji Atlası",
     "section": "",
-    "text": "Patoloji Atlası\nPatoloji Atlası sayfası - geliştirmeler devam ediyor\nLütfen https://www.patolojiatlasi.com/ sayfasına bakınız.\n\n\n\n\n\nSource Code\n# Patoloji Atlası {.unnumbered}\n\nPatoloji Atlası sayfası - geliştirmeler devam ediyor\n\nLütfen <https://www.patolojiatlasi.com/> sayfasına bakınız.\n\n<iframe src=\"https://pathologyatlas.github.io/glycogenstorage/HE.html\" width=\"100%\" height=\"400px\">\n\n</iframe>"
+    "text": "Patoloji Atlası"
   },
   {
-    "objectID": "genital.html",
-    "href": "genital.html",
-    "title": "Patoloji Atlası",
+    "objectID": "giris.html",
+    "href": "giris.html",
+    "title": "Giriş",
     "section": "",
-    "text": "Genital Sistem Patolojisi\n\n\n\nSource Code\n# Genital Sistem Patolojisi"
+    "text": "Patoloji Atlası Memorial Patoloji arşivinden derlenen vakalardan oluşmaktadır.\nKatkı yapmak ve kendi vakalarınız ekletmek için lütfen iletişime geçin.\n\n\n\nSon güncelleme zamanı: 2022-03-14 08:23:06\nFor English go to: lab.patolojinotlari.com\nSosyal medyadan derlenen görüntülerden oluşan patoloji notları için tıklayınız."
   },
   {
-    "objectID": "yonetim-gelistirme.html#pancreas-ductal-adenocarcinoma",
-    "href": "yonetim-gelistirme.html#pancreas-ductal-adenocarcinoma",
-    "title": "Patoloji Atlası",
-    "section": "Pancreas Ductal Adenocarcinoma",
-    "text": "Pancreas Ductal Adenocarcinoma\n\nhttps://pathologyatlas.github.io/pancreaticadenocarcinoma/\n\n\nCase 1\n\nhistopathology"
-  },
-  {
-    "objectID": "yonetim-gelistirme.html#neoplazinin-klinikopatolojik-özellikleri-ve-epidemiyoloji",
-    "href": "yonetim-gelistirme.html#neoplazinin-klinikopatolojik-özellikleri-ve-epidemiyoloji",
-    "title": "Patoloji Atlası",
-    "section": "Neoplazinin Klinikopatolojik Özellikleri ve Epidemiyoloji",
-    "text": "Neoplazinin Klinikopatolojik Özellikleri ve Epidemiyoloji\n\nhttps://pathologyatlas.github.io/lecture1/Neoplazinin-Klinikopatolojik-Ozellikleri-ve-Epidemiyoloji.html\n\ntoc-depth: 3\nnumber-sections: true\nnumber-depth: 3\ncolorlinks: true\nhighlight-style: github\nmarkua:\ntoc: true\ncommonmark:\ntoc: true\ndocx:\ntoc: true\nsection-numbers: true\nhighlight-style: github\ntoc-depth: 3\ntoc-title: Contents\nnumber-sections: true\nnumber-depth: 3\nepub:\ntoc: true\n\n\n\nSource Code\n# Yönetim ve Geliştirme\n\n\n- [pathologyatlas.github.io](https://pathologyatlas.github.io/)\n- [lab.patolojinotlari.com](https://lab.patolojinotlari.com)\n- [patolojinotlari.com](https://patolojinotlari.com)\n- [parapathology.com](https://parapathology.com)\n- [twitter](https://twitter.com/patolojinotlari)\n- [linkedin](https://www.linkedin.com/company/patoloji-notlari)\n\n- [development & WIP](https://pathologyatlas.github.io/development.md)\n\n- contact: info@patolojinotlari.com\n\n\n---\n\n# Examples for future uploads\n\n## Pancreas Ductal Adenocarcinoma\n- [https://pathologyatlas.github.io/pancreaticadenocarcinoma/](https://pathologyatlas.github.io/pancreaticadenocarcinoma/)\n\n### Case 1\n- [histopathology](https://pathologyatlas.github.io/pancreaticadenocarcinoma/case1-histopathology/viewer_z0.html)\n\n## Neoplazinin Klinikopatolojik Özellikleri ve Epidemiyoloji\n\n- [https://pathologyatlas.github.io/lecture1/Neoplazinin-Klinikopatolojik-Ozellikleri-ve-Epidemiyoloji.html](https://pathologyatlas.github.io/lecture1/Neoplazinin-Klinikopatolojik-Ozellikleri-ve-Epidemiyoloji.html)\n\n\n\ntoc-depth: 3\n\nnumber-sections: true\n\nnumber-depth: 3\n\ncolorlinks: true\n\nhighlight-style: github\n\nmarkua:\n\ntoc: true\n\ncommonmark:\n\ntoc: true\n\ndocx:\n\ntoc: true\n\nsection-numbers: true\n\nhighlight-style: github\n\ntoc-depth: 3\n\ntoc-title: Contents\n\nnumber-sections: true\n\nnumber-depth: 3\n\nepub:\n\ntoc: true"
-  },
-  {
-    "objectID": "katki.html",
-    "href": "katki.html",
-    "title": "Patoloji Atlası",
+    "objectID": "yazarlar.html",
+    "href": "yazarlar.html",
+    "title": "Yazarlar ve Katkıda Bulunanlar",
     "section": "",
-    "text": "Katkıda Bulunmak İçin\n\n\n\nSource Code\n# Katkıda Bulunmak İçin"
+    "text": "Derleyen: Serdar Balcı Yazarlar: Memorial Patoloji Hekim ve Teknikerleri\nCases by:\n\nIlknur Turkmen, MD, Pathologist"
   },
   {
-    "objectID": "tipfakultesi.html",
-    "href": "tipfakultesi.html",
-    "title": "Patoloji Atlası",
-    "section": "",
-    "text": "Tıp Fakültesi Dersleri\n\n\n\nSource Code\n# Tıp Fakültesi Dersleri"
+    "objectID": "metastaz.html#karaciğerde-sarkom-metastazı",
+    "href": "metastaz.html#karaciğerde-sarkom-metastazı",
+    "title": "1  Metastaz",
+    "section": "1.1 Karaciğerde Sarkom Metastazı",
+    "text": "1.1 Karaciğerde Sarkom Metastazı\nmetastaticsarcoma/HE.html\nMikroskopik görüntüleri inceleyin:"
   }
 ]

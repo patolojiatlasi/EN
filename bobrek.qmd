@@ -1,0 +1,11 @@
+# Böbrek Tümörleri
+
+## Onkositom
+
+<https://pathologyatlas.github.io/kidneyoncocytoma/HE.html>
+
+Mikroskopik görüntüleri inceleyin:
+
+<iframe src="https://pathologyatlas.github.io/kidneyoncocytoma/HE.html" style="height:400px;width:100%;">
+
+</iframe>

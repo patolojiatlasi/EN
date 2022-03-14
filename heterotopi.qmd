@@ -1,0 +1,11 @@
+# Heterotopi
+
+## Intrapancreatic Spleen, Heterotopia
+
+
+- [https://pathologyatlas.github.io/intrapancreaticspleen/HE.html](https://pathologyatlas.github.io/intrapancreaticspleen/HE.html)
+
+- Mikroskopik görüntüleri inceleyin: 
+
+<iframe src="https://pathologyatlas.github.io/intrapancreaticspleen/HE.html" style="height:400px;width:100%;"></iframe>
+
