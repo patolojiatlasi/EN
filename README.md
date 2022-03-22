@@ -1,3 +1,0 @@
-# Patoloji Atlası
-
-[Patoloji Atlası]()
