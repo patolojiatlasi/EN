@@ -11,7 +11,7 @@
     "href": "giris.html",
     "title": "Giriş",
     "section": "",
-    "text": "Patoloji Atlası Memorial Patoloji arşivinden derlenen vakalardan oluşmaktadır.\nKatkı yapmak ve kendi vakalarınız ekletmek için lütfen iletişime geçin.\n\n\n\nSon güncelleme zamanı: 2022-04-05 16:34:46\n\n\n\nSosyal medyadan derlenen görüntülerden oluşan patoloji notları için tıklayınız."
+    "text": "Patoloji Atlası Memorial Patoloji arşivinden derlenen vakalardan oluşmaktadır.\nKatkı yapmak ve kendi vakalarınız ekletmek için lütfen iletişime geçin.\n\n\n\nSon güncelleme zamanı: 2022-04-09 19:38:14\n\n\n\nSosyal medyadan derlenen görüntülerden oluşan patoloji notları için tıklayınız."
   },
   {
     "objectID": "yazarlar.html#derleyen",
@@ -259,31 +259,38 @@
     "text": "23.0.1 Hepatoselüler Karsinom\nhttps://pathologyatlas.github.io/hepatocellularcarcinoma/HCC/viewer_z0.html\nMikroskopik görüntüleri inceleyin:"
   },
   {
+    "objectID": "mezotel.html",
+    "href": "mezotel.html",
+    "title": "24  Abdominal mesothelioma",
+    "section": "",
+    "text": "Abdominal mesothelioma\nhttps://pathologyatlas.github.io/abdominal-mesothelioma/HE.html\nSee Microscopy with viewer:"
+  },
+  {
     "objectID": "jineko.html#over",
     "href": "jineko.html#over",
-    "title": "24  Jinekopatoloji",
-    "section": "24.1 Over",
-    "text": "24.1.1 Ovary, Serous borderline tumor, micropapillary variant\nhttps://pathologyatlas.github.io/ovarianserousmicropapillary/HE.html\nMikroskopik görüntüleri inceleyin:"
+    "title": "25  Jinekopatoloji",
+    "section": "25.1 Over",
+    "text": "25.1.1 Ovary, Serous borderline tumor, micropapillary variant\nhttps://pathologyatlas.github.io/ovarianserousmicropapillary/HE.html\nMikroskopik görüntüleri inceleyin:"
   },
   {
     "objectID": "genital.html",
     "href": "genital.html",
-    "title": "25  Genital Sistem Patolojisi",
+    "title": "26  Genital Sistem Patolojisi",
     "section": "",
     "text": ""
   },
   {
     "objectID": "uriner.html",
     "href": "uriner.html",
-    "title": "26  Uriner Sistem Patolojisi",
+    "title": "27  Uriner Sistem Patolojisi",
     "section": "",
     "text": ""
   },
   {
     "objectID": "bobrek.html#onkositom",
     "href": "bobrek.html#onkositom",
-    "title": "27  Böbrek Tümörleri",
-    "section": "27.1 Onkositom",
+    "title": "28  Böbrek Tümörleri",
+    "section": "28.1 Onkositom",
     "text": "https://pathologyatlas.github.io/kidneyoncocytoma/HE.html\nMikroskopik görüntüleri inceleyin:"
   },
   {
@@ -296,43 +303,43 @@
   {
     "objectID": "kulak.html",
     "href": "kulak.html",
-    "title": "28  Kulak",
+    "title": "29  Kulak",
     "section": "",
-    "text": "28.0.1 Kolesteatom\nhttps://pathologyatlas.github.io/cholesteatoma/cholesteatoma.html\nMikroskopik görüntüleri inceleyin:"
+    "text": "29.0.1 Kolesteatom\nhttps://pathologyatlas.github.io/cholesteatoma/cholesteatoma.html\nMikroskopik görüntüleri inceleyin:"
   },
   {
     "objectID": "gliom.html",
     "href": "gliom.html",
-    "title": "29  High Grade Glioma Squash Slide",
+    "title": "30  High Grade Glioma Squash Slide",
     "section": "",
     "text": "High Grade Glioma Squash Slide\nhttps://pathologyatlas.github.io/high-grade-glioma-squash/HE.html\nSee Microscopy with viewer:"
   },
   {
     "objectID": "meningiom.html",
     "href": "meningiom.html",
-    "title": "30  Brain Invasive Meningioma",
+    "title": "31  Brain Invasive Meningioma",
     "section": "",
-    "text": "Brain Invasive Meningioma\nhttps://pathologyatlas.github.io/brain-invasive-meningioma/HE.html\nSee Microscopy with viewer:\n\n\n\n\n\n\n\n\n\n\n31 Meningioma Bone Infiltration\n\n\n\n\n\nMeningioma Bone Infiltration\nhttps://pathologyatlas.github.io/meningioma-bone-infiltration/HE.html\nSee Microscopy with viewer:"
+    "text": "Brain Invasive Meningioma\nhttps://pathologyatlas.github.io/brain-invasive-meningioma/HE.html\nSee Microscopy with viewer:\n\n\n\n\n\n\n\n\n\n\n32 Meningioma Bone Infiltration\n\n\n\n\n\nMeningioma Bone Infiltration\nhttps://pathologyatlas.github.io/meningioma-bone-infiltration/HE.html\nSee Microscopy with viewer:"
   },
   {
     "objectID": "kemik.html#benign-kemik-tümörleri",
     "href": "kemik.html#benign-kemik-tümörleri",
-    "title": "31  Kemik Tümörleri",
-    "section": "31.1 Benign Kemik Tümörleri",
-    "text": "31.1.1 Ekzostoz (Osteokondrom)\nhttps://pathologyatlas.github.io/exostosis/oc.html\nMikroskopik görüntüleri inceleyin:\n\n\nhttps://pathologyatlas.github.io/exostosis/oc001.html\nMikroskopik görüntüleri inceleyin:\n\n\nhttps://pathologyatlas.github.io/exostosis/oc002.html\nMikroskopik görüntüleri inceleyin:\n\n\n\n\n31.1.2"
+    "title": "32  Kemik Tümörleri",
+    "section": "32.1 Benign Kemik Tümörleri",
+    "text": "32.1.1 Ekzostoz (Osteokondrom)\nhttps://pathologyatlas.github.io/exostosis/oc.html\nMikroskopik görüntüleri inceleyin:\n\n\nhttps://pathologyatlas.github.io/exostosis/oc001.html\nMikroskopik görüntüleri inceleyin:\n\n\nhttps://pathologyatlas.github.io/exostosis/oc002.html\nMikroskopik görüntüleri inceleyin:\n\n\n\n\n32.1.2"
   },
   {
     "objectID": "adipoz.html",
     "href": "adipoz.html",
-    "title": "32  Myxoid Liposarcoma",
+    "title": "33  Myxoid Liposarcoma",
     "section": "",
     "text": "Myxoid Liposarcoma\nhttps://pathologyatlas.github.io/myxoidliposarcoma/HE.html\nSee Microscopy with viewer:"
   },
   {
     "objectID": "plasenta.html#koryoamnionit",
     "href": "plasenta.html#koryoamnionit",
-    "title": "33  Plasenta",
-    "section": "33.1 Koryoamnionit",
+    "title": "34  Plasenta",
+    "section": "34.1 Koryoamnionit",
     "text": "https://pathologyatlas.github.io/chorioamnionitis/HE.html\nMikroskopik görüntüleri inceleyin:"
   },
   {
@@ -389,7 +396,7 @@
     "href": "yonetim-gelistirme.html#tweeting-with-update",
     "title": "Appendix A — Yönetim ve Geliştirme",
     "section": "G.5 tweeting with update",
-    "text": "https://github.com/and-computers/HowToTweetEveryCommit\nhttps://www.daveabrock.com/2020/04/19/posting-to-twitter-from-gh-actions/\nhttps://gitweet.io/\nhttps://joshuaiz.com/words/using-github-actions-to-post-to-twitter-on-commit\nhttps://www.w3schools.com/howto/howto_css_responsive_iframes.asp\n\n\n\n\n\n\n\n\nNote\n\n\n\nNote that there are five types of callouts, including: note, tip, warning, caution, and important.\n\n\n\n\n\n\n\n\nTip With Caption\n\n\n\nThis is an example of a callout with a caption.\n\n\n\n\n\n\n\n\nExpand To Learn About Collapse\n\n\n\n\n\nThis is an example of a ‘folded’ caution callout that can be expanded by the user. You can use collapse=\"true\" to collapse it by default or collapse=\"false\" to make a collapsible callout that is expanded by default."
+    "text": "https://github.com/and-computers/HowToTweetEveryCommit\nhttps://www.daveabrock.com/2020/04/19/posting-to-twitter-from-gh-actions/\nhttps://gitweet.io/\nhttps://joshuaiz.com/words/using-github-actions-to-post-to-twitter-on-commit\n\n\ngit commit --allow-empty -m \"Empty-Commit\"\ngit push origin main\n\n\nhttps://www.w3schools.com/howto/howto_css_responsive_iframes.asp\n\n\n\n\n\n\n\n\nNote\n\n\n\nNote that there are five types of callouts, including: note, tip, warning, caution, and important.\n\n\n\n\n\n\n\n\nTip With Caption\n\n\n\nThis is an example of a callout with a caption.\n\n\n\n\n\n\n\n\nExpand To Learn About Collapse\n\n\n\n\n\nThis is an example of a ‘folded’ caution callout that can be expanded by the user. You can use collapse=\"true\" to collapse it by default or collapse=\"false\" to make a collapsible callout that is expanded by default."
   },
   {
     "objectID": "katki.html",
