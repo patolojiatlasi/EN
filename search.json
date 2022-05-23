@@ -11,7 +11,7 @@
     "href": "giris.html",
     "title": "Giriş",
     "section": "",
-    "text": "Patoloji Atlası Memorial Patoloji arşivinden derlenen vakalardan oluşmaktadır.\n\nKatkı yapmak ve kendi vakalarınız ekletmek için lütfen iletişime geçin.\n\n\n\nSon güncelleme zamanı: 2022-05-17 17:19:39\n\n\n\nSosyal medyadan derlenen görüntülerden oluşan patoloji notları için tıklayınız."
+    "text": "Patoloji Atlası Memorial Patoloji arşivinden derlenen vakalardan oluşmaktadır.\n\nKatkı yapmak ve kendi vakalarınız ekletmek için lütfen iletişime geçin.\n\n\n\nSon güncelleme zamanı: 2022-05-23 14:17:45\n\n\n\nSosyal medyadan derlenen görüntülerden oluşan patoloji notları için tıklayınız."
   },
   {
     "objectID": "yazarlar.html#derleyen",
@@ -140,11 +140,18 @@
     "text": "Helicobacter pylori (H. pylori) in stomach HE Slide\nhttps://pathologyatlas.github.io/helicobacterpylori/HE.html\nSee Microscopy with viewer:\n\n\n\n\n\n\n\nHelicobacter pylori (H. pylori) in stomach Warthin Starry Histochemistry Slide\nhttps://pathologyatlas.github.io/helicobacterpylori/warthinstarry.html\nSee Microscopy with viewer:\n\n\n\n\n\n\n\nHelicobacter pylori (H. pylori) in stomach Warthin Starry Histochemistry Slide\nhttps://pathologyatlas.github.io/helicobacterpylori/giemsa.html\nSee Microscopy with viewer:"
   },
   {
-    "objectID": "mantar.html",
-    "href": "mantar.html",
+    "objectID": "mantar.html#candida-albicans-in-cervicovaginal-smear",
+    "href": "mantar.html#candida-albicans-in-cervicovaginal-smear",
     "title": "11  Mantarlar",
-    "section": "",
-    "text": "11.0.1 Candida albicans in cervicovaginal smear\nhttps://pathologyatlas.github.io/candidaalbicans/cervicovaginalsmear/viewer_z0.html\nMikroskopik görüntüleri inceleyin:"
+    "section": "11.1 Candida albicans in cervicovaginal smear",
+    "text": "https://pathologyatlas.github.io/candidaalbicans/cervicovaginalsmear/viewer_z0.html\nMikroskopik görüntüleri inceleyin:"
+  },
+  {
+    "objectID": "mantar.html#brain-mucormycosis",
+    "href": "mantar.html#brain-mucormycosis",
+    "title": "11  Mantarlar",
+    "section": "11.2 brain mucormycosis",
+    "text": ""
   },
   {
     "objectID": "parazit.html",
