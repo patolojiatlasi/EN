@@ -11,7 +11,7 @@
     "href": "giris.html",
     "title": "Giriş",
     "section": "",
-    "text": "Patoloji Atlası Memorial Patoloji arşivinden derlenen vakalardan oluşmaktadır.\n\nKatkı yapmak ve kendi vakalarınız ekletmek için lütfen iletişime geçin.\n\n\n\nSon güncelleme zamanı: 2022-05-28 08:48:07\n\n\n\nSosyal medyadan derlenen görüntülerden oluşan patoloji notları için tıklayınız."
+    "text": "Patoloji Atlası Memorial Patoloji arşivinden derlenen vakalardan oluşmaktadır.\n\nKatkı yapmak ve kendi vakalarınız ekletmek için lütfen iletişime geçin.\n\n\n\nSon güncelleme zamanı: 2022-05-31 09:15:23\n\n\n\nSosyal medyadan derlenen görüntülerden oluşan patoloji notları için tıklayınız."
   },
   {
     "objectID": "yazarlar.html#derleyen",
@@ -25,7 +25,7 @@
     "href": "yazarlar.html#katkıda-bulunanlar",
     "title": "Yazarlar ve Katkıda Bulunanlar",
     "section": "Katkıda Bulunanlar:",
-    "text": "Memorial Patoloji Hekimleri\n\nIlknur Turkmen\n[Gülen Bülbül Doğusoy]\n\n\n\n\n[Serdar Balcı]\n\n[Yıldırım Karslıoğlu]\n[Mehtat Uz Ünlü]\n[Murat Oktay]\n\n\n\n[Fatma Gülgün Sade Koçak]\n\n\nMemorial Patoloji Teknikerleri\n\n[Emrah Uça]\n[Şevin Elif Şanioğlu]"
+    "text": "Memorial Patoloji Hekimleri\n\nIlknur Turkmen\n[Gülen Bülbül Doğusoy]\n[Fatma Aktepe]\n[Türkan Atasever Rezanko]\n[Pembe Gül Güneş]\n[Şemsi Yıldız]\n[Serdar Balcı]\n[Sezen Koçarslan]\n[Yıldırım Karslıoğlu]\n[Mehtat Uz Ünlü]\n[Murat Oktay]\n[Deniz Bayçelebi]\n[Emre Karakök]\n[Zuhal Kuş Sılav]\n[Fatma Gülgün Sade Koçak]\n[Zeynep Pehlivanoğlu]\n\nMemorial Patoloji Teknikerleri\n\n[Emrah Uça]\n[Şevin Elif Şanioğlu]"
   },
   {
     "objectID": "hucreicibirikimler.html#kolesterol-polibi",
@@ -259,38 +259,45 @@
     "text": "23.0.1 Hepatoselüler Karsinom\nhttps://pathologyatlas.github.io/hepatocellularcarcinoma/HCC/viewer_z0.html\nMikroskopik görüntüleri inceleyin:"
   },
   {
+    "objectID": "safrakesesi.html",
+    "href": "safrakesesi.html",
+    "title": "24  Gallbladder Adenomyoma",
+    "section": "",
+    "text": "Gallbladder Adenomyoma\nhttps://pathologyatlas.github.io/gallbladder-adenomyoma/HE.html\nSee Microscopy with viewer:"
+  },
+  {
     "objectID": "mezotel.html",
     "href": "mezotel.html",
-    "title": "24  Abdominal mesothelioma",
+    "title": "25  Abdominal mesothelioma",
     "section": "",
     "text": "Abdominal mesothelioma\nhttps://pathologyatlas.github.io/abdominal-mesothelioma/HE.html\nSee Microscopy with viewer:"
   },
   {
     "objectID": "jineko.html#over",
     "href": "jineko.html#over",
-    "title": "25  Jinekopatoloji",
-    "section": "25.1 Over",
-    "text": "25.1.1 Ovary, Serous borderline tumor, micropapillary variant\nhttps://pathologyatlas.github.io/ovarianserousmicropapillary/HE.html\nMikroskopik görüntüleri inceleyin:"
+    "title": "26  Jinekopatoloji",
+    "section": "26.1 Over",
+    "text": "26.1.1 Ovary, Serous borderline tumor, micropapillary variant\nhttps://pathologyatlas.github.io/ovarianserousmicropapillary/HE.html\nMikroskopik görüntüleri inceleyin:"
   },
   {
     "objectID": "genital.html",
     "href": "genital.html",
-    "title": "26  Genital Sistem Patolojisi",
+    "title": "27  Genital Sistem Patolojisi",
     "section": "",
     "text": ""
   },
   {
     "objectID": "uriner.html",
     "href": "uriner.html",
-    "title": "27  Uriner Sistem Patolojisi",
+    "title": "28  Uriner Sistem Patolojisi",
     "section": "",
     "text": ""
   },
   {
     "objectID": "bobrek.html#onkositom",
     "href": "bobrek.html#onkositom",
-    "title": "28  Böbrek Tümörleri",
-    "section": "28.1 Onkositom",
+    "title": "29  Böbrek Tümörleri",
+    "section": "29.1 Onkositom",
     "text": "https://pathologyatlas.github.io/kidneyoncocytoma/HE.html\nMikroskopik görüntüleri inceleyin:"
   },
   {
@@ -303,43 +310,43 @@
   {
     "objectID": "kulak.html",
     "href": "kulak.html",
-    "title": "29  Kulak",
+    "title": "30  Kulak",
     "section": "",
-    "text": "29.0.1 Kolesteatom\nhttps://pathologyatlas.github.io/cholesteatoma/cholesteatoma.html\nMikroskopik görüntüleri inceleyin:"
+    "text": "30.0.1 Kolesteatom\nhttps://pathologyatlas.github.io/cholesteatoma/cholesteatoma.html\nMikroskopik görüntüleri inceleyin:"
   },
   {
     "objectID": "gliom.html",
     "href": "gliom.html",
-    "title": "30  High Grade Glioma Squash Slide",
+    "title": "31  High Grade Glioma Squash Slide",
     "section": "",
     "text": "High Grade Glioma Squash Slide\nhttps://pathologyatlas.github.io/high-grade-glioma-squash/HE.html\nSee Microscopy with viewer:"
   },
   {
     "objectID": "meningiom.html",
     "href": "meningiom.html",
-    "title": "31  Brain Invasive Meningioma",
+    "title": "32  Brain Invasive Meningioma",
     "section": "",
-    "text": "Brain Invasive Meningioma\nhttps://pathologyatlas.github.io/brain-invasive-meningioma/HE.html\nSee Microscopy with viewer:\n\n\n\n\n\n\n\n\n\n\n32 Meningioma Bone Infiltration\n\n\n\n\n\nMeningioma Bone Infiltration\nhttps://pathologyatlas.github.io/meningioma-bone-infiltration/HE.html\nSee Microscopy with viewer:"
+    "text": "Brain Invasive Meningioma\nhttps://pathologyatlas.github.io/brain-invasive-meningioma/HE.html\nSee Microscopy with viewer:\n\n\n\n\n\n\n\n\n\n\n33 Meningioma Bone Infiltration\n\n\n\n\n\nMeningioma Bone Infiltration\nhttps://pathologyatlas.github.io/meningioma-bone-infiltration/HE.html\nSee Microscopy with viewer:"
   },
   {
     "objectID": "kemik.html#benign-kemik-tümörleri",
     "href": "kemik.html#benign-kemik-tümörleri",
-    "title": "32  Kemik Tümörleri",
-    "section": "32.1 Benign Kemik Tümörleri",
-    "text": "32.1.1 Ekzostoz (Osteokondrom)\nhttps://pathologyatlas.github.io/exostosis/oc.html\nMikroskopik görüntüleri inceleyin:\n\n\nhttps://pathologyatlas.github.io/exostosis/oc001.html\nMikroskopik görüntüleri inceleyin:\n\n\nhttps://pathologyatlas.github.io/exostosis/oc002.html\nMikroskopik görüntüleri inceleyin:\n\n\n\n\n32.1.2"
+    "title": "33  Kemik Tümörleri",
+    "section": "33.1 Benign Kemik Tümörleri",
+    "text": "33.1.1 Ekzostoz (Osteokondrom)\nhttps://pathologyatlas.github.io/exostosis/oc.html\nMikroskopik görüntüleri inceleyin:\n\n\nhttps://pathologyatlas.github.io/exostosis/oc001.html\nMikroskopik görüntüleri inceleyin:\n\n\nhttps://pathologyatlas.github.io/exostosis/oc002.html\nMikroskopik görüntüleri inceleyin:\n\n\n\n\n33.1.2"
   },
   {
     "objectID": "adipoz.html",
     "href": "adipoz.html",
-    "title": "33  Myxoid Liposarcoma",
+    "title": "34  Myxoid Liposarcoma",
     "section": "",
     "text": "Myxoid Liposarcoma\nhttps://pathologyatlas.github.io/myxoidliposarcoma/HE.html\nSee Microscopy with viewer:"
   },
   {
     "objectID": "plasenta.html#koryoamnionit",
     "href": "plasenta.html#koryoamnionit",
-    "title": "34  Plasenta",
-    "section": "34.1 Koryoamnionit",
+    "title": "35  Plasenta",
+    "section": "35.1 Koryoamnionit",
     "text": "https://pathologyatlas.github.io/chorioamnionitis/HE.html\nMikroskopik görüntüleri inceleyin:"
   },
   {
