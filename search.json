@@ -11,7 +11,7 @@
     "href": "giris.html",
     "title": "Giriş",
     "section": "",
-    "text": "Patoloji Atlası Memorial Patoloji arşivinden derlenen vakalardan oluşmaktadır.\n\nKatkı yapmak ve kendi vakalarınız ekletmek için lütfen iletişime geçin.\n\n\n\nSon güncelleme zamanı: 2022-06-03 11:43:29\n\n\n\nSosyal medyadan derlenen görüntülerden oluşan patoloji notları için tıklayınız."
+    "text": "Patoloji Atlası Memorial Patoloji arşivinden derlenen vakalardan oluşmaktadır.\n\nKatkı yapmak ve kendi vakalarınız ekletmek için lütfen iletişime geçin.\n\n\n\nSon güncelleme zamanı: 2022-06-06 16:52:03\n\n\n\nSosyal medyadan derlenen görüntülerden oluşan patoloji notları için tıklayınız."
   },
   {
     "objectID": "yazarlar.html#derleyen",
@@ -56,11 +56,11 @@
     "text": "Melanosis Coli\nhttps://pathologyatlas.github.io/melanosiscoli/HE.html\nSee Microscopy with viewer:\n\n\n\n\n\n\n\nMelanosis Coli PAS\nhttps://pathologyatlas.github.io/melanosiscoli/PAS.html\nSee Microscopy with viewer:"
   },
   {
-    "objectID": "hucredisibirikimler.html",
-    "href": "hucredisibirikimler.html",
-    "title": "2  Ochronosis",
-    "section": "",
-    "text": "Ochronosis\nhttps://pathologyatlas.github.io/ochronosis/HE.html\nSee Microscopy with viewer:"
+    "objectID": "hucredisibirikimler.html#ochronosis",
+    "href": "hucredisibirikimler.html#ochronosis",
+    "title": "2  Hücre Dışı Birikimler",
+    "section": "2.1 Ochronosis",
+    "text": ""
   },
   {
     "objectID": "iskeminekroz.html#iskemi-ve-nekroz",
@@ -73,6 +73,13 @@
     "objectID": "inflamasyon.html",
     "href": "inflamasyon.html",
     "title": "4  İnflamasyon",
+    "section": "",
+    "text": ""
+  },
+  {
+    "objectID": "public/inflamasyon.html",
+    "href": "public/inflamasyon.html",
+    "title": "İnflamasyon",
     "section": "",
     "text": ""
   },
@@ -98,11 +105,18 @@
     "text": ""
   },
   {
-    "objectID": "tamir.html",
-    "href": "tamir.html",
+    "objectID": "tamir.html#fibrozis",
+    "href": "tamir.html#fibrozis",
     "title": "6  Tamir Mekanizmaları",
-    "section": "",
-    "text": "6.0.1 Fibrozis\nKolesistit spesmeninde gelişmekte olan genç fibrozis\nhttps://pathologyatlas.github.io/fibrosis/HE.html\nMikroskopik görüntüleri inceleyin:\n\n\n\n\n6.0.2 Keloid - Skar\nKeloid Skar oluşumu\nhttps://pathologyatlas.github.io/keloid-scar/HE.html\nMikroskopik görüntüleri inceleyin:"
+    "section": "6.1 Fibrozis",
+    "text": "Kolesistit spesmeninde gelişmekte olan genç fibrozis\nhttps://pathologyatlas.github.io/fibrosis/HE.html\nMikroskopik görüntüleri inceleyin:"
+  },
+  {
+    "objectID": "tamir.html#keloid---skar",
+    "href": "tamir.html#keloid---skar",
+    "title": "6  Tamir Mekanizmaları",
+    "section": "6.2 Keloid - Skar",
+    "text": "Keloid Skar oluşumu\nhttps://pathologyatlas.github.io/keloid-scar/HE.html\nMikroskopik görüntüleri inceleyin:"
   },
   {
     "objectID": "kronikinflamasyon.html#hydronephrosis-and-chronic-pyelonephritis",
@@ -112,11 +126,11 @@
     "text": "Hydronephrosis and Chronic Pyelonephritis\nhttps://pathologyatlas.github.io/chronicpyelonephritis/HE1.html\nSee Microscopy with viewer:\n\n\nhttps://pathologyatlas.github.io/chronicpyelonephritis/HE2.html\nSee Microscopy with viewer:"
   },
   {
-    "objectID": "granulom.html",
-    "href": "granulom.html",
-    "title": "8  Necrotising Granulomatous Inflammation",
-    "section": "",
-    "text": "Necrotising Granulomatous Inflammation in Liver\nhttps://pathologyatlas.github.io/necrotisinggranuloma/HE.html\nSee Microscopy with viewer:"
+    "objectID": "granulom.html#necrotising-granulomatous-inflammation",
+    "href": "granulom.html#necrotising-granulomatous-inflammation",
+    "title": "8  Granulomatous Inflammation",
+    "section": "8.1 Necrotising Granulomatous Inflammation",
+    "text": ""
   },
   {
     "objectID": "virus.html#herpes-simplex-virus-hsv",
@@ -133,11 +147,11 @@
     "text": ""
   },
   {
-    "objectID": "bakteri.html",
-    "href": "bakteri.html",
+    "objectID": "bakteri.html#helicobacter-pylori",
+    "href": "bakteri.html#helicobacter-pylori",
     "title": "10  Bacteria",
-    "section": "",
-    "text": "Helicobacter pylori (H. pylori) in stomach HE Slide\nhttps://pathologyatlas.github.io/helicobacterpylori/HE.html\nSee Microscopy with viewer:\n\n\n\n\n\n\n\nHelicobacter pylori (H. pylori) in stomach Warthin Starry Histochemistry Slide\nhttps://pathologyatlas.github.io/helicobacterpylori/warthinstarry.html\nSee Microscopy with viewer:\n\n\n\n\n\n\n\nHelicobacter pylori (H. pylori) in stomach Warthin Starry Histochemistry Slide\nhttps://pathologyatlas.github.io/helicobacterpylori/giemsa.html\nSee Microscopy with viewer:"
+    "section": "10.1 Helicobacter pylori",
+    "text": ""
   },
   {
     "objectID": "mantar.html#candida-albicans-in-cervicovaginal-smear",
@@ -154,11 +168,11 @@
     "text": ""
   },
   {
-    "objectID": "parazit.html",
-    "href": "parazit.html",
-    "title": "12  Enterobius vermicularis",
-    "section": "",
-    "text": "Enterobius vermicularis\nhttps://pathologyatlas.github.io/enterobius-vermicularis/HE.html\nSee Microscopy with viewer:"
+    "objectID": "parazit.html#enterobius-vermicularis",
+    "href": "parazit.html#enterobius-vermicularis",
+    "title": "12  Parasites",
+    "section": "12.1 Enterobius vermicularis",
+    "text": ""
   },
   {
     "objectID": "benign.html#adenomlar",
@@ -203,13 +217,6 @@
     "text": "https://pathologyatlas.github.io/metastaticsarcoma/HE.html\nMikroskopik görüntüleri inceleyin:"
   },
   {
-    "objectID": "metastaz.html#v2",
-    "href": "metastaz.html#v2",
-    "title": "16  Metastaz",
-    "section": "16.2 V2",
-    "text": "metastaticsarcoma/HE.html\nMikroskopik görüntüleri inceleyin:"
-  },
-  {
     "objectID": "venozinvazyon.html",
     "href": "venozinvazyon.html",
     "title": "17  Venous invasion",
@@ -245,11 +252,18 @@
     "text": "Gastritis Cystica Profunda\nhttps://pathologyatlas.github.io/gastritis-cystica-profunda/HE.html\nSee Microscopy with viewer:"
   },
   {
+    "objectID": "kolon.html#ischemic-colitis",
+    "href": "kolon.html#ischemic-colitis",
+    "title": "22  Kolon patolojisi",
+    "section": "22.1 Ischemic Colitis",
+    "text": ""
+  },
+  {
     "objectID": "kolon.html#benign-tümörler",
     "href": "kolon.html#benign-tümörler",
-    "title": "22  Ischemic Colitis",
-    "section": "22.1 Benign Tümörler",
-    "text": "22.1.1 Tübüler Adenom\n\nSesil Polip, Flat (Düz) Tübüler Adenom\nhttps://pathologyatlas.github.io/tubularadenoma-flat/HE.html\nMikroskopik görüntüleri inceleyin:\n\n\nhttps://pathologyatlas.github.io/tubularadenoma-flat/HE2.html\nMikroskopik görüntüleri inceleyin:\n\n\n\n\nSaplı Polip\nMacroscopy\ntubular adenoma with a stalk macroscopy\n\n\n\nsaplı polip\n\n\n\nMicroscopy\ntubular adenoma with a stalk\nMikroskopik görüntüleri inceleyin:\nhttps://pathologyatlas.github.io/tubularadenoma/tubular-adenoma-with-stalk/viewer_z0.html\n\n\n\n\n\n22.1.2 Hiperplastik Polip\nMikroskopi\nhttps://pathologyatlas.github.io/hyperplasticpolyp/case1.html\nMikroskopik görüntüleri inceleyin:\n\n\n\n\n22.1.3 Hamartomatöz Polip\nhttps://pathologyatlas.github.io/hamartomatouspolyp/HE.html\nMikroskopik görüntüleri inceleyin:\n\n\n\nSchwann Cell Hamartoma in a Colon Polyp\nhttps://pathologyatlas.github.io/schwanncellhamartoma/HE.html\nMikroskopik görüntüleri inceleyin:"
+    "title": "22  Kolon patolojisi",
+    "section": "22.2 Benign Tümörler",
+    "text": "22.2.1 Tübüler Adenom\n\nSesil Polip, Flat (Düz) Tübüler Adenom\nhttps://pathologyatlas.github.io/tubularadenoma-flat/HE.html\nMikroskopik görüntüleri inceleyin:\n\n\nhttps://pathologyatlas.github.io/tubularadenoma-flat/HE2.html\nMikroskopik görüntüleri inceleyin:\n\n\n\n\nSaplı Polip\nMacroscopy\ntubular adenoma with a stalk macroscopy\n\n\n\nsaplı polip\n\n\n\nMicroscopy\ntubular adenoma with a stalk\nMikroskopik görüntüleri inceleyin:\nhttps://pathologyatlas.github.io/tubularadenoma/tubular-adenoma-with-stalk/viewer_z0.html\n\n\n\n\n\n22.2.2 Hiperplastik Polip\nMikroskopi\nhttps://pathologyatlas.github.io/hyperplasticpolyp/case1.html\nMikroskopik görüntüleri inceleyin:\n\n\n\n\n22.2.3 Hamartomatöz Polip\nhttps://pathologyatlas.github.io/hamartomatouspolyp/HE.html\nMikroskopik görüntüleri inceleyin:\n\n\n\nSchwann Cell Hamartoma in a Colon Polyp\nhttps://pathologyatlas.github.io/schwanncellhamartoma/HE.html\nMikroskopik görüntüleri inceleyin:"
   },
   {
     "objectID": "karaciger.html",
@@ -416,6 +430,20 @@
     "objectID": "yorum.html",
     "href": "yorum.html",
     "title": "Pathology Atlas",
+    "section": "",
+    "text": ""
+  },
+  {
+    "objectID": "listing.html",
+    "href": "listing.html",
+    "title": "Appendix D — List",
+    "section": "",
+    "text": ""
+  },
+  {
+    "objectID": "listing2.html",
+    "href": "listing2.html",
+    "title": "Appendix E — List",
     "section": "",
     "text": ""
   }
