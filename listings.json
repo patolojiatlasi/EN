@@ -7,6 +7,7 @@
       "/acute-inflammation.html",
       "/amyloidosis.html",
       "/ampulla-vater.html",
+      "/bs.html",
       "/bacteria.html",
       "/tumor-spread.html",
       "/benign-liver-tumors.html",
@@ -72,7 +73,6 @@
       "/pdac.html",
       "/esophagus.html",
       "/ischemia-necrosis.html",
-      "/bs.html",
       "/comments.html"
     ]
   },
@@ -84,6 +84,7 @@
       "/acute-inflammation.html",
       "/amyloidosis.html",
       "/ampulla-vater.html",
+      "/bs.html",
       "/bacteria.html",
       "/tumor-spread.html",
       "/benign-liver-tumors.html",
@@ -149,7 +150,6 @@
       "/pdac.html",
       "/esophagus.html",
       "/ischemia-necrosis.html",
-      "/bs.html",
       "/comments.html"
     ]
   }
