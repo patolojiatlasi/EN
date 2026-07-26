@@ -7,9 +7,9 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <meta name="dcterms.date" content="2026-07-26">
-<meta name="description" content="hasar, tamir, patoloji, atlas, pathology, whole slide image, virtual microscopy, virtual microscope, sanal mikroskop">
+<meta name="description" content="QuPath eklenti extension dijital patoloji digital pathology whole slide image patoloji atlas pathology">
 
-<title>10&nbsp; Repair Mechanisms – Histopathology Atlas</title>
+<title>Appendix E — QuPath Patoloji Atlası Extension – Histopathology Atlas</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -28,6 +28,41 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
+/* CSS for syntax highlighting */
+html { -webkit-text-size-adjust: 100%; }
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
 </style>
 
 
@@ -37,8 +72,7 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
-<link href="./erosion.html" rel="next">
-<link href="./amyloidosis.html" rel="prev">
+<link href="./augmented-reality.html" rel="prev">
 <script src="site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
@@ -115,21 +149,19 @@ ul.task-list li input[type="checkbox"] {
 
 
 <link rel="stylesheet" href="styles.css">
-<meta property="og:title" content="10&nbsp; Repair Mechanisms – Histopathology Atlas">
+<meta property="og:title" content="Appendix E — QuPath Patoloji Atlası Extension – Histopathology Atlas">
 <meta property="og:description" content="Atlas of Pathology with Whole Slide Images Histopathology Atlas and Notes for Medical Students Atlas of Histopathology Notes for Pathology Pathology Lecture Notes and Histopathology Atlas is being prepared from Memorial Pathology Archive and collaborators from other institutions.">
-<meta property="og:image" content="https://histopathologyatlas.com/screenshots/thumbnail_fibrosis.png">
+<meta property="og:image" content="https://histopathologyatlas.com/images/coverEN.png">
 <meta property="og:site_name" content="Histopathology Atlas">
-<meta property="og:image:alt" content="Click for Full Screen WSI">
-<meta property="og:image:height" content="744">
-<meta property="og:image:width" content="992">
-<meta name="twitter:title" content="10&nbsp; Repair Mechanisms – Histopathology Atlas">
+<meta property="og:image:height" content="794">
+<meta property="og:image:width" content="1268">
+<meta name="twitter:title" content="Appendix E — QuPath Patoloji Atlası Extension – Histopathology Atlas">
 <meta name="twitter:description" content="Atlas of Pathology with Whole Slide Images Histopathology Atlas and Notes for Medical Students Atlas of Histopathology Notes for Pathology Pathology Lecture Notes and Histopathology Atlas is being prepared from Memorial Pathology Archive and collaborators from other institutions.">
-<meta name="twitter:image" content="https://histopathologyatlas.com/screenshots/thumbnail_fibrosis.png">
+<meta name="twitter:image" content="https://histopathologyatlas.com/images/coverEN.png">
 <meta name="twitter:creator" content="%40serdarbalci">
 <meta name="twitter:site" content="%40patolojinotlari">
-<meta name="twitter:image:alt" content="Click for Full Screen WSI">
-<meta name="twitter:image-height" content="744">
-<meta name="twitter:image-width" content="992">
+<meta name="twitter:image-height" content="794">
+<meta name="twitter:image-width" content="1268">
 <meta name="twitter:card" content="summary_large_image">
 </head>
 
@@ -304,7 +336,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./techniques.html">General Pathology</a></li><li class="breadcrumb-item"><a href="./repair.html"><span class="chapter-number">10</span>&nbsp; <span class="chapter-title">Repair Mechanisms</span></a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./authors.html">Appendices</a></li><li class="breadcrumb-item"><a href="./qupath-extension.html"><span class="chapter-number">E</span>&nbsp; <span class="chapter-title">QuPath Extension</span></a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
@@ -424,7 +456,7 @@ ul.task-list li input[type="checkbox"] {
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./repair.html" class="sidebar-item-text sidebar-link active">
+  <a href="./repair.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text"><span class="chapter-number">10</span>&nbsp; <span class="chapter-title">Repair Mechanisms</span></span></a>
   </div>
 </li>
@@ -1173,7 +1205,7 @@ ul.task-list li input[type="checkbox"] {
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./qupath-extension.html" class="sidebar-item-text sidebar-link">
+  <a href="./qupath-extension.html" class="sidebar-item-text sidebar-link active">
  <span class="menu-text"><span class="chapter-number">E</span>&nbsp; <span class="chapter-title">QuPath Extension</span></span></a>
   </div>
 </li>
@@ -1189,8 +1221,29 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">Table of contents</h2>
    
   <ul>
-  <li><a href="#sec-fibrosis" id="toc-sec-fibrosis" class="nav-link active" data-scroll-target="#sec-fibrosis"><span class="header-section-number">10.1</span> Fibrosis</a></li>
-  <li><a href="#sec-keloid-skar" id="toc-sec-keloid-skar" class="nav-link" data-scroll-target="#sec-keloid-skar"><span class="header-section-number">10.2</span> Keloid - Skar</a></li>
+  <li><a href="#about" id="toc-about" class="nav-link active" data-scroll-target="#about"><span class="header-section-number">E.1</span> About</a></li>
+  <li><a href="#what-it-does" id="toc-what-it-does" class="nav-link" data-scroll-target="#what-it-does"><span class="header-section-number">E.2</span> What it does</a></li>
+  <li><a href="#quiz-self-study" id="toc-quiz-self-study" class="nav-link" data-scroll-target="#quiz-self-study"><span class="header-section-number">E.3</span> Quiz (self-study)</a></li>
+  <li><a href="#compare-a-cases-stains" id="toc-compare-a-cases-stains" class="nav-link" data-scroll-target="#compare-a-cases-stains"><span class="header-section-number">E.4</span> Compare a case’s stains</a></li>
+  <li><a href="#bench-side-reference" id="toc-bench-side-reference" class="nav-link" data-scroll-target="#bench-side-reference"><span class="header-section-number">E.5</span> Bench-side reference</a></li>
+  <li><a href="#related-content-navigator" id="toc-related-content-navigator" class="nav-link" data-scroll-target="#related-content-navigator"><span class="header-section-number">E.6</span> Related-content navigator</a></li>
+  <li><a href="#collections-favorites" id="toc-collections-favorites" class="nav-link" data-scroll-target="#collections-favorites"><span class="header-section-number">E.7</span> Collections &amp; favorites</a></li>
+  <li><a href="#requirements" id="toc-requirements" class="nav-link" data-scroll-target="#requirements"><span class="header-section-number">E.8</span> Requirements</a></li>
+  <li><a href="#install" id="toc-install" class="nav-link" data-scroll-target="#install"><span class="header-section-number">E.9</span> Install</a>
+  <ul class="collapse">
+  <li><a href="#method-a-add-the-catalog-to-qupath-recommended" id="toc-method-a-add-the-catalog-to-qupath-recommended" class="nav-link" data-scroll-target="#method-a-add-the-catalog-to-qupath-recommended">Method A — add the catalog to QuPath (recommended)</a></li>
+  <li><a href="#method-b-download-the-jar-from-releases-manual" id="toc-method-b-download-the-jar-from-releases-manual" class="nav-link" data-scroll-target="#method-b-download-the-jar-from-releases-manual">Method B — download the JAR from Releases (manual)</a></li>
+  </ul></li>
+  <li><a href="#build-optional" id="toc-build-optional" class="nav-link" data-scroll-target="#build-optional"><span class="header-section-number">E.10</span> Build (optional)</a></li>
+  <li><a href="#notes-limitations" id="toc-notes-limitations" class="nav-link" data-scroll-target="#notes-limitations"><span class="header-section-number">E.11</span> Notes &amp; limitations</a></li>
+  <li><a href="#focus-heatmap" id="toc-focus-heatmap" class="nav-link" data-scroll-target="#focus-heatmap"><span class="header-section-number">E.12</span> Focus heatmap</a>
+  <ul class="collapse">
+  <li><a href="#blinded-research-recording" id="toc-blinded-research-recording" class="nav-link" data-scroll-target="#blinded-research-recording">Blinded research recording</a></li>
+  </ul></li>
+  <li><a href="#coverage-qc-dashboard" id="toc-coverage-qc-dashboard" class="nav-link" data-scroll-target="#coverage-qc-dashboard"><span class="header-section-number">E.13</span> Coverage &amp; QC dashboard</a></li>
+  <li><a href="#provenance-citation" id="toc-provenance-citation" class="nav-link" data-scroll-target="#provenance-citation"><span class="header-section-number">E.14</span> Provenance &amp; citation</a></li>
+  <li><a href="#citation" id="toc-citation" class="nav-link" data-scroll-target="#citation"><span class="header-section-number">E.15</span> Citation</a></li>
+  <li><a href="#license" id="toc-license" class="nav-link" data-scroll-target="#license"><span class="header-section-number">E.16</span> License</a></li>
   </ul>
 </nav>
     </div>
@@ -1198,12 +1251,15 @@ ul.task-list li input[type="checkbox"] {
 <main class="content column-body" id="quarto-document-content">
 
 
-<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./techniques.html">General Pathology</a></li><li class="breadcrumb-item"><a href="./repair.html"><span class="chapter-number">10</span>&nbsp; <span class="chapter-title">Repair Mechanisms</span></a></li></ol></nav>
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./authors.html">Appendices</a></li><li class="breadcrumb-item"><a href="./qupath-extension.html"><span class="chapter-number">E</span>&nbsp; <span class="chapter-title">QuPath Extension</span></a></li></ol></nav>
 <div class="quarto-title">
-<h1 class="title"><span id="sec-repair-mechanisms" class="quarto-section-identifier"><span class="chapter-number">10</span>&nbsp; <span class="chapter-title">Repair Mechanisms</span></span></h1>
+<h1 class="title"><span id="sec-qupath-extension" class="quarto-section-identifier">Appendix E — QuPath Patoloji Atlası Extension</span></h1>
   <div class="quarto-categories">
-    <div class="quarto-category">hasar</div>
-    <div class="quarto-category">tamir</div>
+    <div class="quarto-category">qupath</div>
+    <div class="quarto-category">wsi</div>
+    <div class="quarto-category">atlas</div>
+    <div class="quarto-category">yazılım</div>
+    <div class="quarto-category">software</div>
   </div>
   </div>
 
@@ -1227,47 +1283,203 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="sec-fibrosis" class="level2 cell" data-number="10.1">
-<h2 data-number="10.1" class="anchored" data-anchor-id="sec-fibrosis"><span class="header-section-number">10.1</span> Fibrosis</h2>
+<div class="cell">
+<p>An open-source QuPath extension that lets you browse the whole-slide images published on this atlas and open any of them directly inside <strong>QuPath</strong>. Slides are streamed tile-by-tile over HTTP, with nothing to download in advance.</p>
+<p>The extension adds a Deep Zoom (DZI) image reader to QuPath plus a searchable catalogue driven by the atlas’s own image list, so QuPath’s full measurement, annotation and analysis toolkit works on atlas slides.</p>
+<p><strong>Requires</strong> QuPath 0.6 or newer and an internet connection at runtime.</p>
+<p><strong>Links:</strong> <a href="https://github.com/sbalci/patolojiatlasi-QuPath">Source code and releases</a> · <a href="https://github.com/sbalci/patolojiatlasi-QuPath/releases/latest">Latest release</a> · <a href="https://doi.org/10.5281/zenodo.21443833">DOI: 10.5281/zenodo.21443833</a> · <a href="https://github.com/sbalci/patolojiatlasi-QuPath/blob/HEAD/SHARING.md">Sharing a research project</a> · MIT licence</p>
+<p>The documentation below is kept in sync with the extension repository’s README. Menu and button labels are given exactly as they appear in the extension, which ships a Turkish interface.</p>
+</div>
+<!-- Generated by R/sync-qupath-readme.R - do not edit by hand. -->
+<section id="about" class="level2" data-number="E.1">
+<h2 data-number="E.1" class="anchored" data-anchor-id="about"><span class="header-section-number">E.1</span> About</h2>
+<p>The <strong>Patoloji Atlası</strong> is a whole-slide image teaching collection curated by pathologists and published openly on the web. This extension brings that same collection into QuPath so the slides can be browsed and opened for study and analysis without leaving the application. An <strong>About</strong> button in the browser window (and the extension’s entry in QuPath’s extension manager) links back to these sites:</p>
+<ul>
+<li><strong>Türkçe:</strong> <a href="https://www.patolojiatlasi.com/">patolojiatlasi.com</a></li>
+<li><strong>English:</strong> <a href="https://www.histopathologyatlas.com/">histopathologyatlas.com</a></li>
+</ul>
 </section>
-<div class="tabset-margin-container"></div><div class="panel-tabset">
-<ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-1-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-1" role="tab" aria-controls="tabset-1-1" aria-selected="true" href="" aria-current="page">WSI - Link</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-2" role="tab" aria-controls="tabset-1-2" aria-selected="false" href="">WSI</a></li></ul>
-<div class="tab-content">
-<div id="tabset-1-1" class="tab-pane active" role="tabpanel" aria-labelledby="tabset-1-1-tab">
-<div class="cell">
-<p>Developing fibrosis in a cholecystitis</p>
-<p><a href="https://images.patolojiatlasi.com/fibrosis/HE.html"><img src="./screenshots/thumbnail_fibrosis.png" class="img-fluid" style="width:25.0%" alt="Click for Full Screen WSI"></a> <a href="https://images.patolojiatlasi.com/fibrosis/HE.html">Click for Full Screen WSI</a></p>
-</div>
-</div>
-<div id="tabset-1-2" class="tab-pane" role="tabpanel" aria-labelledby="tabset-1-2-tab">
-<div class="cell">
-<p>See Microscopy with viewer:</p>
-<iframe src="https://images.patolojiatlasi.com/fibrosis/HE.html" style="height:600px;width:100%;" data-external="1">
-</iframe>
-</div>
-</div>
-</div>
-</div>
-<section id="sec-keloid-skar" class="level2" data-number="10.2">
-<h2 data-number="10.2" class="anchored" data-anchor-id="sec-keloid-skar"><span class="header-section-number">10.2</span> Keloid - Skar</h2>
-<div class="tabset-margin-container"></div><div class="panel-tabset">
-<ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-2-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-2-1" role="tab" aria-controls="tabset-2-1" aria-selected="true" href="">WSI - Link</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-2-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-2-2" role="tab" aria-controls="tabset-2-2" aria-selected="false" href="">WSI</a></li></ul>
-<div class="tab-content">
-<div id="tabset-2-1" class="tab-pane active" role="tabpanel" aria-labelledby="tabset-2-1-tab">
-<div class="cell">
-<p>Keloid Scar</p>
-<p><a href="https://images.patolojiatlasi.com/keloid-scar/HE.html"><img src="./screenshots/thumbnail_keloid-scar.png" class="img-fluid" style="width:25.0%" alt="Click for Full Screen WSI"></a> <a href="https://images.patolojiatlasi.com/keloid-scar/HE.html">Click for Full Screen WSI</a></p>
-</div>
-</div>
-<div id="tabset-2-2" class="tab-pane" role="tabpanel" aria-labelledby="tabset-2-2-tab">
-<div class="cell">
-<p>See Microscopy with viewer:</p>
-<iframe src="https://images.patolojiatlasi.com/keloid-scar/HE.html" style="height:600px;width:100%;" data-external="1">
-</iframe>
-</div>
-</div>
-</div>
-</div>
+<section id="what-it-does" class="level2" data-number="E.2">
+<h2 data-number="E.2" class="anchored" data-anchor-id="what-it-does"><span class="header-section-number">E.2</span> What it does</h2>
+<ul>
+<li>Adds <strong>Extensions → Patoloji Atlası → Slaytlara gözat…</strong>, opening a searchable window that lists every image grouped by category (Gastrointestinal, Pancreatobiliary, Neuropathology, …), with a thumbnail preview and a <strong>Published only</strong> filter.</li>
+<li>Each entry is a single stain of a case, so multi-stain cases (H&amp;E plus IHC / special stains such as Warthin-Starry, Giemsa, CISH, PAS…) each appear as their own openable image.</li>
+<li>Double-click an image (or select it and press <strong>Open in QuPath</strong>) to open it.
+<ul>
+<li>With a <strong>project</strong> open, the slide is added to the project and opened as an entry, so your annotations, detections and measurements are saved with the project.</li>
+<li>With no project open, it opens in the current viewer for read-only viewing.</li>
+</ul></li>
+<li><strong>Curate a project from several images.</strong> Use <strong>Add to selection</strong> (button or the tree right-click menu) to build up a set as you browse and search — the selection persists across searches and <em>Refresh list</em>. Then <strong>Create project…</strong> opens a dialog where you review the set and either create a <strong>new project</strong> on disk or <strong>add the selection to the current project</strong>. Because slides stream from URLs, the resulting project is tiny and portable — hand the project folder to students (they need this extension installed) to run a course, seminar, or exam set.</li>
+<li><strong>Refresh list</strong> pulls the latest <code>lists/list.yaml</code> live from the <code>patolojiatlasi/patolojiatlasi.github.io</code> repository, so new cases appear without updating the extension. A snapshot of the list (288 images) is bundled so the browser works offline out of the box.</li>
+<li>Registers <code>.dzi</code> URLs as an openable image type, so <strong>File → Open URI…</strong> with any <code>https://images.patolojiatlasi.com/&lt;case&gt;/&lt;stain&gt;.dzi</code> link works too.</li>
+</ul>
+</section>
+<section id="quiz-self-study" class="level2" data-number="E.3">
+<h2 data-number="E.3" class="anchored" data-anchor-id="quiz-self-study"><span class="header-section-number">E.3</span> Quiz (self-study)</h2>
+<p><strong>Extensions → Patoloji Atlası → Sınav / Quiz → Hazırla…</strong> and <strong>Extensions → Patoloji Atlası → Sınav / Quiz → Çöz…</strong> turn atlas slides into a self-study quiz — no project and no server required. Four question types are supported:</p>
+<ul>
+<li><p><strong>Multiple-choice</strong> — a prompt with several options, one marked correct.</p></li>
+<li><p><strong>Free-text</strong> — a prompt with a model answer to compare your own notes against.</p></li>
+<li><p><strong>Annotation task</strong> — a prompt that asks you to mark or outline a feature on the slide (e.g. “mark every mitosis”); you draw with QuPath’s normal annotation tools, then click <strong>Göster</strong> to overlay the instructor’s reference annotation on the slide and compare by eye.</p></li>
+<li><p><strong>Guided navigation (“find it”)</strong> — a prompt that asks you to navigate to a region (e.g.&nbsp;“find the area of highest mitotic activity”); pan/zoom there yourself, then click <strong>Göster</strong> to overlay the target region and recentre the viewer on it.</p></li>
+<li><p><strong>Author</strong> (<code>Sınav / Quiz → Hazırla…</code>) — with an atlas slide open, add a question of any of the four types; each question is bound to the slide that was open when you added it (its DZI URL is stored with the question), so one pack can span several slides. For an annotation or navigation question, draw and select the reference region on the slide yourself, then click <strong>Referansı slayttan al</strong> to capture its shape as the question’s reference (annotation) or target (navigation) geometry. Save the finished set as a quiz-pack JSON.</p></li>
+<li><p><strong>Take</strong> (<code>Sınav / Quiz → Çöz…</code>) — load a quiz-pack and work through its questions in order; each question opens its slide, you answer it — pick an option, type notes, draw an outline, or navigate to a region — then click <strong>Göster</strong> to reveal the correct MCQ option, the free-text model answer, or, for annotation/navigation questions, an overlay of the reference/target region drawn directly on the slide.</p></li>
+<li><p>This is <strong>self-study</strong>: <strong>there is no auto-grading</strong> — <strong>Göster</strong> only overlays the reference for a visual self-compare, nothing is scored. Nothing is saved anywhere either: the quiz-pack is a single portable file you’re free to email or hand out, and anything you draw while answering an annotation or navigation question is transient — it’s cleared again as soon as you move to the next/previous question or close the window, so it never ends up saved in the project.</p></li>
+</ul>
+</section>
+<section id="compare-a-cases-stains" class="level2" data-number="E.4">
+<h2 data-number="E.4" class="anchored" data-anchor-id="compare-a-cases-stains"><span class="header-section-number">E.4</span> Compare a case’s stains</h2>
+<p><strong>Extensions → Patoloji Atlası → Karşılaştır → Bu vakanın boyalarını karşılaştır…</strong> opens every stain of the case shown in the active viewer — H&amp;E plus any IHC / special stains — into QuPath’s native multi-viewer grid, with pan/zoom linked across all of them (QuPath’s built-in <strong>synchronize viewers</strong> behavior), so you can scroll one panel and have the others follow to the same field. The grid size (1×2 up to 2×3) is picked to fit the number of stains; cases with more than six stains only show the first six. If the active viewer isn’t showing a cataloged atlas slide, or the slide’s case has no other stains, you get a message instead of a grid.</p>
+<p><strong>Extensions → Patoloji Atlası → Karşılaştır → Tek görünüme dön</strong> turns synchronization off and collapses the grid back to a single viewer, closing the other panels (prompting to save first if any of them have unsaved edits, exactly like QuPath’s own close-viewer action).</p>
+</section>
+<section id="bench-side-reference" class="level2" data-number="E.5">
+<h2 data-number="E.5" class="anchored" data-anchor-id="bench-side-reference"><span class="header-section-number">E.5</span> Bench-side reference</h2>
+<p>Open an atlas case in a <strong>second viewer beside your own slide</strong> — handy for comparing your own case against a known reference while you work, without losing what’s already open. Two ways to launch it:</p>
+<ul>
+<li><strong>Browser right-click</strong> — in <strong>Slaytlara gözat…</strong>, right-click a case and choose <strong>Referans olarak yanında aç</strong>.</li>
+<li><strong>Extensions → Patoloji Atlası → Referans → Referans slayt aç…</strong> — a search-and-pick dialog (filter by title, organ, or stain) with a <strong>Yanında aç</strong> button (or double-click a row).</li>
+</ul>
+<p>Either way, the reference slide streams into a new viewer added next to your active one; if nothing is open yet, it opens directly into that single viewer instead (there’s nothing to be “beside” yet). When both slides carry a known pixel size (µm/px), the reference viewer’s zoom is matched automatically to show the same on-screen scale as yours. A small floating <strong>Referans</strong> window appears alongside it with:</p>
+<ul>
+<li><strong>Büyütmeyi eşle</strong> — re-match magnification on demand.</li>
+<li><strong>Kaydırmayı da eşle (tam senkron)</strong> — toggle full pan/zoom sync between the two viewers (QuPath’s built-in synchronize-viewers behavior).</li>
+<li><strong>Referansı kapat</strong> — closes the reference viewer (prompting to save first if it has unsaved edits) and collapses the grid back to a single viewer.</li>
+</ul>
+</section>
+<section id="related-content-navigator" class="level2" data-number="E.6">
+<h2 data-number="E.6" class="anchored" data-anchor-id="related-content-navigator"><span class="header-section-number">E.6</span> Related-content navigator</h2>
+<p><strong>Extensions → Patoloji Atlası → İlgili içerik…</strong> opens a companion window that, for the atlas slide currently open in the active viewer, shows two thumbnail filmstrips:</p>
+<ul>
+<li><strong>Bu vakanın diğer boyaları</strong> — the same case’s other stains (H&amp;E plus any IHC / special stains), captioned by stain name.</li>
+<li><strong>Aynı kategoriden vakalar</strong> — other cases from the same category, one representative thumbnail per case (its H&amp;E stain if it has one, otherwise its first stain).</li>
+</ul>
+<p>The window <strong>auto-follows the active viewer</strong> — switch slides, open a different one, or close it, and both strips rebuild for whatever’s now open, with no need to reopen the window. If the active viewer isn’t showing a cataloged atlas slide, it shows a hint instead of strips. A <strong>Yenile</strong> button rebuilds on demand.</p>
+<p><strong>Click a thumbnail to swap the active viewer to that slide.</strong> Because <code>QuPathViewer.setImageData</code> bypasses QuPath’s own save prompt, the navigator checks first: if the slide you’re leaving has unsaved changes, you’re asked to confirm before it’s replaced.</p>
+<p>The swap targets the <strong>active</strong> viewer. If you have a Case-Compare grid open, only the active panel changes — use the navigator with a single viewer for the intended jump-to-related experience.</p>
+</section>
+<section id="collections-favorites" class="level2" data-number="E.7">
+<h2 data-number="E.7" class="anchored" data-anchor-id="collections-favorites"><span class="header-section-number">E.7</span> Collections &amp; favorites</h2>
+<p>Build a selection in the browser (right-click a slide → <strong>Add to selection</strong>, or the <strong>Add to selection</strong> button), then:</p>
+<ul>
+<li><strong>Koleksiyonu kaydet…</strong> writes the current selection to a small, shareable <code>.json</code> file — send it to a colleague, or keep it as your own case list. Refuses (with a status hint) if the selection is empty.</li>
+<li><strong>Koleksiyon yükle…</strong> opens a <code>.json</code> collection and re-resolves each entry against the currently-loaded catalog, adding whatever matches into the selection basket. The status line reports how many slides loaded and how many are <strong>no longer in the catalog</strong> (e.g.&nbsp;renamed or removed since the file was saved) — that part is safely ignored rather than failing the whole load.</li>
+<li>Right-click a slide → <strong>★ Favori (aç/kapat)</strong> to mark or unmark it as a favorite. Favorited slides show a ★ prefix in the tree. Favorites persist automatically to <code>~/QuPath-atlas-collections/favorites.json</code>, independent of any saved collection file.</li>
+<li><strong>Favorileri yükle</strong> adds every currently-catalogued favorite into the selection basket.</li>
+</ul>
+<p>Collections are portable: the <code>.json</code> file only needs the slide’s DZI URL plus a bit of display metadata, so it resolves correctly even against a refreshed catalog — share it with a colleague running the same extension.</p>
+</section>
+<section id="requirements" class="level2" data-number="E.8">
+<h2 data-number="E.8" class="anchored" data-anchor-id="requirements"><span class="header-section-number">E.8</span> Requirements</h2>
+<ul>
+<li><strong>QuPath 0.6.x</strong> (built against the 0.6 API; runs on Java 21).</li>
+<li>Internet access at runtime (slides stream from <code>images.patolojiatlasi.com</code>).</li>
+</ul>
+</section>
+<section id="install" class="level2" data-number="E.9">
+<h2 data-number="E.9" class="anchored" data-anchor-id="install"><span class="header-section-number">E.9</span> Install</h2>
+<p>Two ways to install, both needing only <strong>QuPath 0.6 or newer</strong>. <strong>Method A is recommended</strong> — you add the catalog once and QuPath installs the extension and offers future updates for you. Method B is a one-time manual download if you’d rather not add a catalog.</p>
+<section id="method-a-add-the-catalog-to-qupath-recommended" class="level3">
+<h3 class="anchored" data-anchor-id="method-a-add-the-catalog-to-qupath-recommended">Method A — add the catalog to QuPath (recommended)</h3>
+<p>You add the catalog <strong>once</strong>; afterwards QuPath installs and updates the extension from it.</p>
+<ol type="1">
+<li><p>In QuPath, open <strong>Extensions → Manage extension catalogs</strong>.</p></li>
+<li><p>Click <strong>Add</strong>, paste this repository URL, and confirm:</p>
+<pre><code>https://github.com/sbalci/patolojiatlasi-QuPath</code></pre>
+<p>QuPath finds the <code>catalog.json</code> in the repository for you.</p></li>
+<li><p>Open <strong>Extensions → Manage extensions</strong>. Under the catalog you just added you’ll see <strong>QuPath Patoloji Atlası extension</strong> — click <strong>Install</strong>. QuPath downloads the matching release JAR for you (no manual file handling).</p></li>
+<li><p>When prompted, <strong>restart QuPath</strong>. After it reopens, the extension lives under <strong>Extensions → Patoloji Atlası</strong> (start with <strong>Slaytlara gözat…</strong> to browse the slides).</p></li>
+</ol>
+<p><strong>Updating later.</strong> When a newer version is released, open <strong>Extensions → Manage extensions</strong> again and click <strong>Update</strong> next to the extension. If the update doesn’t seem to take effect, fully quit and reopen QuPath — QuPath re-reads the catalog and loads the new JAR on the next launch.</p>
+</section>
+<section id="method-b-download-the-jar-from-releases-manual" class="level3">
+<h3 class="anchored" data-anchor-id="method-b-download-the-jar-from-releases-manual">Method B — download the JAR from Releases (manual)</h3>
+<ol type="1">
+<li>Go to the <strong><a href="https://github.com/sbalci/patolojiatlasi-QuPath/releases/latest">latest release</a></strong> and download the attached <code>qupath-extension-atlas-&lt;version&gt;.jar</code> (under <strong>Assets</strong>).</li>
+<li>Start QuPath 0.6+.</li>
+<li><strong>Drag the <code>.jar</code> onto the QuPath window</strong> and confirm when asked to install it. (Alternatively, copy it into QuPath’s extensions directory: <strong>Extensions → Installed extensions → open extensions directory</strong>, drop the JAR there.)</li>
+<li><strong>Restart QuPath</strong> when prompted. The extension then appears under <strong>Extensions → Patoloji Atlası → Slaytlara gözat…</strong>.</li>
+</ol>
+<blockquote class="blockquote">
+<p>To update with Method B, download the newer JAR and repeat — replace the old JAR in the extensions directory (or just drag the new one on and let QuPath overwrite it).</p>
+</blockquote>
+</section>
+</section>
+<section id="build-optional" class="level2" data-number="E.10">
+<h2 data-number="E.10" class="anchored" data-anchor-id="build-optional"><span class="header-section-number">E.10</span> Build (optional)</h2>
+<p>Pre-built JARs are attached to every <a href="https://github.com/sbalci/patolojiatlasi-QuPath/releases">GitHub release</a>, so most users never need to build. To build from source (JDK 21 required):</p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb2"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="ex">./gradlew</span> build          <span class="co"># macOS / Linux</span></span>
+<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a><span class="ex">gradlew.bat</span> build        <span class="co"># Windows</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<p>The extension jar is written to <code>build/libs/qupath-extension-atlas-&lt;version&gt;.jar</code>. QuPath’s own APIs are resolved from the SciJava Maven repository at build time, so an internet connection is needed for the first build.</p>
+</section>
+<section id="notes-limitations" class="level2" data-number="E.11">
+<h2 data-number="E.11" class="anchored" data-anchor-id="notes-limitations"><span class="header-section-number">E.11</span> Notes &amp; limitations</h2>
+<ul>
+<li><strong>Pixel-size calibration.</strong> <code>vips dzsave</code> does not store microns-per-pixel in the DZI, so a slide opens <strong>uncalibrated</strong> (measurements in pixels) unless a pixel size is supplied. Three ways to supply it, in order of precedence: (1) a per-image <code>"mpp"</code> field in the catalog, (2) a catalog-wide <code>"defaultMpp"</code> (see <em>Regenerating the bundled snapshot</em> below) — both are applied automatically on open (and enable QuPath’s scale bar); (3) manually per slide after opening (Image tab → <em>Set pixel size</em>), or baked into a URL as <code>…/HE.dzi?mpp=0.25</code>. No pixel size is imposed by default, so a wrong calibration is never applied silently.</li>
+<li><strong>Image type is set on open when recognised.</strong> H&amp;E → <em>Brightfield (H&amp;E)</em> and a known special/histochemical stain → <em>Brightfield (other)</em>, so color deconvolution works without setting it by hand. Any other stain (including IHC markers) is left <strong>unset</strong> — the extension only assigns a type it is confident about and never guesses IHC/DAB; set those in the Image tab.</li>
+<li><strong>Streaming, not downloaded.</strong> Tiles are fetched on demand into QuPath’s tile cache; a live connection is needed while panning into new regions.</li>
+<li><strong>Category coverage depends on the list metadata.</strong> Images are grouped from the <code>speciality</code> and <code>organEN</code> fields, falling back to the title/slug. Entries whose list record has none of these (currently a fair number, many with blank titles) land under <strong>Uncategorized</strong> — filling in <code>organEN</code>/<code>titleEN</code> in <code>list.yaml</code> will automatically improve grouping on the next refresh.</li>
+<li><strong>Respecting the source.</strong> The images belong to patolojiatlasi.com; this tool is for viewing and study. Avoid bulk-downloading the tile pyramids.</li>
+</ul>
+</section>
+<section id="focus-heatmap" class="level2" data-number="E.12">
+<h2 data-number="E.12" class="anchored" data-anchor-id="focus-heatmap"><span class="header-section-number">E.12</span> Focus heatmap</h2>
+<p><strong>Extensions → Araştırma → Odak ısı haritası</strong> adds a dwell/attention heatmap that records where you look on a slide. This lives in the <strong>“Araştırma”</strong> menu (a top-level sibling of “Patoloji Atlası” in Extensions), together with image rotation and the “flag any project” action below — these tools are atlas-independent and work on <strong>any</strong> open slide, not just ones opened from the atlas catalogue. While tracking is on, the active viewer’s visible region is sampled a few times a second and accumulated into a per-slide grid shown as a translucent overlay — focused high-magnification viewing heats an area far faster than a zoomed-out browse, so the map doubles as a <em>“did I review the whole slide?”</em> check and as a way to study where readers focus.</p>
+<p>Menu items:</p>
+<ul>
+<li><strong>Slayt üzerinde göster (ısı katmanı)</strong> — toggle the translucent heatmap overlay on the active viewer.</li>
+<li><strong>Ayrı pencerede göster</strong> — toggle a separate floating window showing the same heatmap.</li>
+<li><strong>Temizle</strong> — reset the current slide’s map.</li>
+<li><strong>Kaydet…</strong> — save the current map now to a folder you pick.</li>
+<li><strong>Araştırmaya katkıda bulun…</strong> — save an <strong>anonymised</strong> contribution (no user name; a random session id + stable slide key + date) under <code>~/QuPath-atlas-focus-maps/contributions/</code>, for the planned per-slide <em>crowd attention map</em>. <strong>Uploading is disabled</strong> until the atlas website has a receiver — until then the file is only written locally and can be shared manually.</li>
+<li><strong>Oturumdan sonra sakla (kalıcı)</strong> — when <strong>off</strong> (default), maps live only for the session and are discarded; when <strong>on</strong>, each slide’s map is auto-saved (on slide change, close, or stopping) to <code>~/QuPath-atlas-focus-maps/</code> so it can be analysed later.</li>
+<li><strong>Gezinme kaydı (araştırma) — sessizce kaydeder, ısı haritası gösterilmez</strong> — the blinded-recording toggle; see <em>Blinded research recording</em> below.</li>
+</ul>
+<p>Each saved map is a <code>&lt;slide&gt;__&lt;user&gt;__&lt;timestamp&gt;.json</code> (plus a <code>.png</code> preview). The JSON carries the slide name/URI, the user (OS login), image and grid dimensions, sample count, and the row-major <code>grid</code> of dwell values — enough to aggregate focus across readers offline. The plan for pooling contributions into a website overlay is in <a href="https://github.com/sbalci/patolojiatlasi-QuPath/blob/HEAD/docs/focus-aggregation-plan.md">docs/focus-aggregation-plan.md</a>.</p>
+<section id="blinded-research-recording" class="level3">
+<h3 class="anchored" data-anchor-id="blinded-research-recording">Blinded research recording</h3>
+<p>For studies that need real, unbiased dwell-time data — where seeing a live heatmap of your own viewing could change how you look — the same focus tracker has a <strong>blinded</strong> mode: it silently records which regions of the slide you looked at and for how long, with <strong>no overlay, no window, and no on-screen indication of any kind</strong> while it’s active. It can’t be toggled visible; the <strong>Slayt üzerinde göster (ısı katmanı)</strong> / <strong>Ayrı pencerede göster</strong> / <strong>Temizle</strong> / <strong>Kaydet…</strong> / <strong>Araştırmaya katkıda bulun…</strong> menu items are all disabled for the duration, so a session can’t accidentally surface a heatmap or leak one to a file.</p>
+<p>You can turn it on for a single session from <strong>Extensions → Araştırma → Odak ısı haritası → Gezinme kaydı (araştırma)</strong>, or make it the default for an entire study. There are two ways to do that:</p>
+<ul>
+<li><strong>Building a project from the atlas browser:</strong> check <strong>“Araştırma projesi — gezinme kaydı (blinded)”</strong> in the <em>Create project</em> dialog.</li>
+<li><strong>Any other project — local slides, a server/PACS project, or one you already have open:</strong> <strong>Extensions → Araştırma → Mevcut projeyi araştırma projesi yap (gezinme kaydı)…</strong> flags the <strong>currently open project</strong> in one click, no atlas involvement required. This is the same sidecar mechanism, so it’s how a researcher sets up a double-blind spatial/temporal/directional viewing study on their own SVS files.</li>
+</ul>
+<p>Either way, this writes a small <code>atlas-research.json</code> sidecar next to the project’s <code>.qpproj</code> file; every time the project is opened afterwards, blinded recording starts automatically — after a <strong>one-time consent notice</strong> explaining that anonymised viewing data (regions viewed + dwell time, no identity) is being recorded for research. (The “flag current project” action asks for that same consent immediately, since you’re opting in right there, and starts recording at once rather than waiting for the next reopen.) Declining leaves recording off and the notice reappears next time the project opens; accepting is remembered so later sessions start recording immediately, no re-prompt.</p>
+<p><strong>Where the data goes.</strong> When a project is open, every blinded write for that session goes into <code>&lt;project&gt;/atlas-focus/</code> (captured once when recording starts, so a later project switch can’t misattribute a still-finishing session); with no project open it falls back to <code>~/QuPath-atlas-focus-maps/contributions/</code>. While recording, the current slide’s map is checkpointed to a <code>session-&lt;id&gt;.partial.json</code> file roughly every <strong>30 seconds</strong>, so a crash or force-quit loses at most that much data — not the whole session. Switching slides or stopping promotes the checkpoint into a final per-slide JSON fragment and removes the <code>.partial.json</code>. Closing or switching away from the project stops recording, writes the last slide’s fragment, and bundles every fragment from the session into a single <code>atlas-focus_&lt;timestamp&gt;_&lt;session&gt;.zip</code> in the project folder (or the fallback dir) — that one zip is what you hand to the study coordinator. Every artifact in this pipeline (checkpoint, fragment, zip) is JSON-only and anonymised: no PNG, no username, ever.</p>
+<p><strong>Running a study?</strong> See <strong><a href="https://github.com/sbalci/patolojiatlasi-QuPath/blob/HEAD/SHARING.md">SHARING.md</a></strong> for the end-to-end guide to preparing a blinded-research project, packaging it (with the extension) for researchers, the consent / observer-effect tradeoff, and getting the data back — and <strong><a href="https://github.com/sbalci/patolojiatlasi-QuPath/blob/HEAD/analysis/README.md">analysis/</a></strong> for the Python/R analysis toolkits.</p>
+</section>
+</section>
+<section id="coverage-qc-dashboard" class="level2" data-number="E.13">
+<h2 data-number="E.13" class="anchored" data-anchor-id="coverage-qc-dashboard"><span class="header-section-number">E.13</span> Coverage &amp; QC dashboard</h2>
+<p><strong>Extensions → Patoloji Atlası → Katalog kapsamı ve QC…</strong> opens a read-only <strong>category x stain</strong> matrix computed from the bundled catalogue snapshot — for every category, how many slides and distinct cases fall into each of the four stain buckets (H&amp;E / IHC / special stain / other), plus per-category <strong>published%</strong> and <strong>mpp-known%</strong> (pixel-size calibration coverage). A bold TOTAL strip under the table sums the whole catalogue.</p>
+<ul>
+<li><strong>Bağlantıları denetle</strong> — an opt-in, best-effort reachability check of every distinct DZI URL in the catalogue (a <code>HEAD</code> request per URL, run off the UI thread with a progress bar). Any unreachable slide is listed by title and URL underneath — nothing is checked automatically, since this makes a batch of network calls.</li>
+<li><strong>Drill down.</strong> Double-click a category row to seed the project builder (the same dialog the browser’s selection basket uses) with every case in that category, ready to review and turn into a project.</li>
+<li><strong>Export.</strong> Copy or save the matrix as <strong>CSV</strong> or <strong>Markdown</strong> — handy for pasting a data-availability statement or tracking catalogue gaps over time.</li>
+</ul>
+<p>The classification (which stain bucket a slide falls into) is keyword-based, so the <strong>Diğer</strong> (“other”) / <strong>Uncategorized</strong> buckets are honest catch-alls rather than a guarantee of correctness — see <code>stainBucket()</code>/<code>normalizeCategory()</code> if you need to extend the keyword lists.</p>
+</section>
+<section id="provenance-citation" class="level2" data-number="E.14">
+<h2 data-number="E.14" class="anchored" data-anchor-id="provenance-citation"><span class="header-section-number">E.14</span> Provenance &amp; citation</h2>
+<p>Beyond citing the extension itself (see <strong>Citation</strong> below), the atlas menu can generate ready-to-use citations and export files for the slides you actually used — image + extension + QuPath references together, so a figure or methods section always carries full provenance.</p>
+<ul>
+<li><strong>Cite a slide.</strong> Right-click a case in <strong>Slaytlara gözat…</strong> and choose <strong>Bu slaytı alıntıla…</strong>, or use <strong>Extensions → Patoloji Atlası → Atıf → Açık slaytı alıntıla…</strong> with the slide open in the active viewer. Produces BibTeX / RIS / plain-text citations for the atlas image, this extension, and QuPath (Bankhead et al.&nbsp;2017), with copy-to-clipboard and save-to-file actions.</li>
+<li><strong>Export a cohort manifest.</strong> In the project-builder dialog (from the browser’s selection basket), click <strong>Künye / manifest dışa aktar…</strong> and pick a folder — writes <code>atlas-manifest.csv</code>, <code>atlas-manifest.md</code>, and <code>atlas-methods.txt</code> for every slide in the current selection. This does <strong>not</strong> create a project; it only records provenance for the slides you’ve gathered.</li>
+<li><strong>Cite a region.</strong> Select an annotation on an open atlas slide, then use <strong>Extensions → Patoloji Atlası → Atıf → Bu bölgeyi alıntıla…</strong>. Produces a figure-citation card — the slide citation, the viewport framing (downsample + center), an editable caption, and the region’s geometry as GeoJSON — with the same copy/save actions.</li>
+</ul>
+<p>All three add a best-effort catalogue commit SHA (from a lightweight, unauthenticated GitHub API call) and this extension’s version to the exported provenance, without blocking the UI while that network lookup runs.</p>
+</section>
+<section id="citation" class="level2" data-number="E.15">
+<h2 data-number="E.15" class="anchored" data-anchor-id="citation"><span class="header-section-number">E.15</span> Citation</h2>
+<p>If you use this software, please cite it — GitHub renders a <strong>“Cite this repository”</strong> button from <a href="https://github.com/sbalci/patolojiatlasi-QuPath/blob/HEAD/CITATION.cff"><code>CITATION.cff</code></a>. The archive is on Zenodo under a <strong>concept DOI that always resolves to the latest release</strong> (cite this — it stays the same across versions):</p>
+<p><strong><a href="https://doi.org/10.5281/zenodo.21443833">10.5281/zenodo.21443833</a></strong></p>
+<blockquote class="blockquote">
+<p>Balcı, S. <em>QuPath Patoloji Atlası Extension (qupath-extension-atlas)</em> [Software]. Zenodo. https://doi.org/10.5281/zenodo.21443833</p>
+</blockquote>
+</section>
+<section id="license" class="level2" data-number="E.16">
+<h2 data-number="E.16" class="anchored" data-anchor-id="license"><span class="header-section-number">E.16</span> License</h2>
+<p>MIT — see <a href="https://github.com/sbalci/patolojiatlasi-QuPath/blob/HEAD/LICENSE">LICENSE</a>.</p>
+<p><em>Developer and release notes are kept with the source code: <a href="https://github.com/sbalci/patolojiatlasi-QuPath#readme">README</a>.</em></p>
 
 
 </section>
@@ -1697,14 +1909,11 @@ ul.task-list li input[type="checkbox"] {
 </script>
 <nav class="page-navigation column-body">
   <div class="nav-page nav-page-previous">
-      <a href="./amyloidosis.html" class="pagination-link" aria-label="Amyloidosis">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">9</span>&nbsp; <span class="chapter-title">Amyloidosis</span></span>
+      <a href="./augmented-reality.html" class="pagination-link" aria-label="Augmented Reality">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">D</span>&nbsp; <span class="chapter-title">Augmented Reality</span></span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="./erosion.html" class="pagination-link" aria-label="Erosion">
-        <span class="nav-page-text"><span class="chapter-number">11</span>&nbsp; <span class="chapter-title">Erosion</span></span> <i class="bi bi-arrow-right-short"></i>
-      </a>
   </div>
 </nav>
 </div> <!-- /content -->
