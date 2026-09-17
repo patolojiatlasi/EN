@@ -2288,7 +2288,7 @@
     "href": "qupath-extension.html",
     "title": "Appendix E — QuPath Patoloji Atlası Extension",
     "section": "",
-    "text": "E.1 About\nThe Patoloji Atlası is a whole-slide image teaching collection curated by pathologists and published openly on the web. This extension brings that same collection into QuPath so the slides can be browsed and opened for study and analysis without leaving the application. An About button in the browser window (and the extension’s entry in QuPath’s extension manager) links back to these sites:",
+    "text": "E.1 About\nThe Patoloji Atlası is a whole-slide image teaching collection curated by pathologists and published openly on the web. This extension brings that same collection into QuPath so the slides can be browsed and opened for study and analysis without leaving the application. An About button in the browser window (and the extension’s entry in QuPath’s extension manager) links back to these sites:\nRelated work: QuPath Edu / OpenMicroanatomy (Yli-Hallila et al., Journal of Anatomy 2025;246(5):846–856, doi:10.1111/joa.14172) is a server-based QuPath teaching extension (workspaces, hidden-answer annotations, slide tours). This extension serves the same educational space with a deliberately serverless design: slides stream read-only from the public atlas, and every study artifact (quiz/tour packs, collections, recordings) is a portable local file.",
     "crumbs": [
       "Appendices",
       "<span class='chapter-number'>E</span>  <span class='chapter-title'>QuPath Extension</span>"
@@ -2321,7 +2321,7 @@
     "href": "qupath-extension.html#quiz-self-study",
     "title": "Appendix E — QuPath Patoloji Atlası Extension",
     "section": "E.3 Quiz (self-study)",
-    "text": "E.3 Quiz (self-study)\nExtensions → Patoloji Atlası → Sınav / Quiz → Hazırla… and Extensions → Patoloji Atlası → Sınav / Quiz → Çöz… turn atlas slides into a self-study quiz — no project and no server required. Four question types are supported:\n\nMultiple-choice — a prompt with several options, one marked correct.\nFree-text — a prompt with a model answer to compare your own notes against.\nAnnotation task — a prompt that asks you to mark or outline a feature on the slide (e.g. “mark every mitosis”); you draw with QuPath’s normal annotation tools, then click Göster to overlay the instructor’s reference annotation on the slide and compare by eye.\nGuided navigation (“find it”) — a prompt that asks you to navigate to a region (e.g. “find the area of highest mitotic activity”); pan/zoom there yourself, then click Göster to overlay the target region and recentre the viewer on it.\nAuthor (Sınav / Quiz → Hazırla…) — with an atlas slide open, add a question of any of the four types; each question is bound to the slide that was open when you added it (its DZI URL is stored with the question), so one pack can span several slides. For an annotation or navigation question, draw and select the reference region on the slide yourself, then click Referansı slayttan al to capture its shape as the question’s reference (annotation) or target (navigation) geometry. Save the finished set as a quiz-pack JSON.\nTake (Sınav / Quiz → Çöz…) — load a quiz-pack and work through its questions in order; each question opens its slide, you answer it — pick an option, type notes, draw an outline, or navigate to a region — then click Göster to reveal the correct MCQ option, the free-text model answer, or, for annotation/navigation questions, an overlay of the reference/target region drawn directly on the slide.\nThis is self-study: there is no auto-grading — Göster only overlays the reference for a visual self-compare, nothing is scored. Nothing is saved anywhere either: the quiz-pack is a single portable file you’re free to email or hand out, and anything you draw while answering an annotation or navigation question is transient — it’s cleared again as soon as you move to the next/previous question or close the window, so it never ends up saved in the project.",
+    "text": "E.3 Quiz (self-study)\nExtensions → Patoloji Atlası → Sınav / Quiz → Hazırla… and Extensions → Patoloji Atlası → Sınav / Quiz → Çöz… turn atlas slides into a self-study quiz — no project and no server required. Four question types are supported:\n\nMultiple-choice — a prompt with several options, one marked correct.\nFree-text — a prompt with a model answer to compare your own notes against.\nAnnotation task — a prompt that asks you to mark or outline a feature on the slide (e.g. “mark every mitosis”); you draw with QuPath’s normal annotation tools, then click Göster to overlay the instructor’s reference annotation on the slide and compare by eye.\nGuided navigation (“find it”) — a prompt that asks you to navigate to a region (e.g. “find the area of highest mitotic activity”); pan/zoom there yourself, then click Göster to overlay the target region and recentre the viewer on it.\nAuthor (Sınav / Quiz → Hazırla…) — with an atlas slide open, add a question of any of the four types; each question is bound to the slide that was open when you added it (its DZI URL is stored with the question), so one pack can span several slides. For an annotation or navigation question, draw and select the reference region on the slide yourself, then click Referansı slayttan al to capture its shape as the question’s reference (annotation) or target (navigation) geometry. Save the finished set as a quiz-pack JSON.\nTake (Sınav / Quiz → Çöz…) — load a quiz-pack and work through its questions in order; each question opens its slide, you answer it — pick an option, type notes, draw an outline, or navigate to a region — then click Göster to reveal the correct MCQ option, the free-text model answer, or, for annotation/navigation questions, an overlay of the reference/target region drawn directly on the slide.\nThis is self-study, not a graded exam. For multiple-choice and free-text questions there is no auto-grading at all — Göster only reveals the correct option or model answer for a visual self-compare, nothing is scored. For annotation and navigation questions, Göster additionally appends one measurement-only score line below the reference/target overlay: IoU % plus a hit/miss verdict, where a hit is “IoU &gt; 0.3 or containment” (annotation: your drawn outline vs. the reference geometry; navigation: your viewport at reveal time vs. the target geometry). This score is a geometric measurement, not a clinical judgement, and it is display-only: it is never persisted, never written back into the quiz-pack, and disappears like everything else in the reveal area as soon as you move on. Nothing is saved anywhere: the quiz-pack is a single portable file you’re free to email or hand out, and anything you draw while answering an annotation or navigation question is transient — it’s cleared again as soon as you move to the next/previous question or close the window, so it never ends up saved in the project.\nNo QuPath? No problem. web-tour-player/ is a single self-contained HTML page that plays the same quiz/tour packs in a plain web browser — see its README for deployment and CORS notes.",
     "crumbs": [
       "Appendices",
       "<span class='chapter-number'>E</span>  <span class='chapter-title'>QuPath Extension</span>"
@@ -2409,7 +2409,7 @@
     "href": "qupath-extension.html#notes-limitations",
     "title": "Appendix E — QuPath Patoloji Atlası Extension",
     "section": "E.11 Notes & limitations",
-    "text": "E.11 Notes & limitations\n\nPixel-size calibration. vips dzsave does not store microns-per-pixel in the DZI, so a slide opens uncalibrated (measurements in pixels) unless a pixel size is supplied. Three ways to supply it, in order of precedence: (1) a per-image \"mpp\" field in the catalog, (2) a catalog-wide \"defaultMpp\" (see Regenerating the bundled snapshot below) — both are applied automatically on open (and enable QuPath’s scale bar); (3) manually per slide after opening (Image tab → Set pixel size), or baked into a URL as …/HE.dzi?mpp=0.25. No pixel size is imposed by default, so a wrong calibration is never applied silently.\nImage type is set on open when recognised. H&E → Brightfield (H&E) and a known special/histochemical stain → Brightfield (other), so color deconvolution works without setting it by hand. Any other stain (including IHC markers) is left unset — the extension only assigns a type it is confident about and never guesses IHC/DAB; set those in the Image tab.\nStreaming, not downloaded. Tiles are fetched on demand into QuPath’s tile cache; a live connection is needed while panning into new regions.\nCategory coverage depends on the list metadata. Images are grouped from the speciality and organEN fields, falling back to the title/slug. Entries whose list record has none of these (currently a fair number, many with blank titles) land under Uncategorized — filling in organEN/titleEN in list.yaml will automatically improve grouping on the next refresh.\nRespecting the source. The images belong to patolojiatlasi.com; this tool is for viewing and study. Avoid bulk-downloading the tile pyramids.",
+    "text": "E.11 Notes & limitations\n\nPixel-size calibration. vips dzsave does not store microns-per-pixel in the DZI, so a slide opens uncalibrated (measurements in pixels) unless a pixel size is supplied. Three ways to supply it, in order of precedence: (1) a per-image \"mpp\" field in the catalog, (2) a catalog-wide \"defaultMpp\" (see Regenerating the bundled snapshot below) — both are applied automatically on open (and enable QuPath’s scale bar); (3) manually per slide after opening (Image tab → Set pixel size), or baked into a URL as …/HE.dzi?mpp=0.25. No pixel size is imposed by default, so a wrong calibration is never applied silently.\nIn-app helper: Patoloji Atlası → Piksel boyutu ayarla… shows whether the open image is calibrated, computes mpp_export = mpp_original × (width_original / width_export) from the scanner preset and the export ratio (the formula in docs/pixel-size-mpp.md), and then either applies it for the session or builds the durable ?mpp= URL — the two are labelled separately because only the URL survives a reopen.\nThis matters more than a missing scale bar. An uncalibrated image still reports getAveragedPixelSize() == 1.0, and µm-based tools that read it without first checking hasPixelSizeMicrons() silently treat one pixel as one micron. The WSInfer extension is a verified example: it computes downsample = spacing_um_px / getAveragedPixelSize(), so a model trained at 0.5 µm/px runs at roughly twice the intended magnification and the run completes with no error. Cell detection fails differently again (it checks, and returns NaN). Calibrate before analysing.\nImage type is set on open when recognised. H&E → Brightfield (H&E) and a known special/histochemical stain → Brightfield (other), so color deconvolution works without setting it by hand. Any other stain (including IHC markers) is left unset — the extension only assigns a type it is confident about and never guesses IHC/DAB; set those in the Image tab.\nStreaming, not downloaded. Tiles are fetched on demand into QuPath’s tile cache; a live connection is needed while panning into new regions.\nCategory coverage depends on the list metadata. Images are grouped from the speciality and organEN fields, falling back to the title/slug. Entries whose list record has none of these (currently a fair number, many with blank titles) land under Uncategorized — filling in organEN/titleEN in list.yaml will automatically improve grouping on the next refresh.\nRespecting the source. The images belong to patolojiatlasi.com; this tool is for viewing and study. Avoid bulk-downloading the tile pyramids.",
     "crumbs": [
       "Appendices",
       "<span class='chapter-number'>E</span>  <span class='chapter-title'>QuPath Extension</span>"
@@ -2468,6 +2468,61 @@
     "crumbs": [
       "Appendices",
       "<span class='chapter-number'>E</span>  <span class='chapter-title'>QuPath Extension</span>"
+    ]
+  },
+  {
+    "objectID": "ai-assistants.html#connector-address",
+    "href": "ai-assistants.html#connector-address",
+    "title": "Appendix F — Use the Atlas in ChatGPT / Claude",
+    "section": "F.1 Connector address",
+    "text": "F.1 Connector address\nAdd this address to your assistant as a connector. No sign-in or password is needed.\nhttps://atlas-mcp.serdarbalci.workers.dev/mcp",
+    "crumbs": [
+      "Appendices",
+      "<span class='chapter-number'>F</span>  <span class='chapter-title'>Use in ChatGPT / Claude</span>"
+    ]
+  },
+  {
+    "objectID": "ai-assistants.html#claude",
+    "href": "ai-assistants.html#claude",
+    "title": "Appendix F — Use the Atlas in ChatGPT / Claude",
+    "section": "F.2 Claude",
+    "text": "F.2 Claude\nWorks on every Claude plan (the free plan allows one custom connector), on the web, desktop and mobile apps.\n\nOpen Customize → Connectors, click +, then Add custom connector.\nEnter a name such as Histopathology Atlas, paste the address above and save.\nStart a new chat and enable the connector from the + menu in the message box.",
+    "crumbs": [
+      "Appendices",
+      "<span class='chapter-number'>F</span>  <span class='chapter-title'>Use in ChatGPT / Claude</span>"
+    ]
+  },
+  {
+    "objectID": "ai-assistants.html#chatgpt",
+    "href": "ai-assistants.html#chatgpt",
+    "title": "Appendix F — Use the Atlas in ChatGPT / Claude",
+    "section": "F.3 ChatGPT",
+    "text": "F.3 ChatGPT\nOn ChatGPT for the web, Plus, Pro, Business, Enterprise and Edu accounts can add it in Developer mode.\n\nTurn on Developer mode under Settings → Security and login.\nGo to chatgpt.com/plugins, click +, paste the address and choose No authentication.\nIn a new chat, select the connector from the tools menu in the message box.\n\nThe same address also works in other MCP apps such as Codex, VS Code (Copilot) and Cursor; they show text answers with atlas links instead of the viewer.",
+    "crumbs": [
+      "Appendices",
+      "<span class='chapter-number'>F</span>  <span class='chapter-title'>Use in ChatGPT / Claude</span>"
+    ]
+  },
+  {
+    "objectID": "ai-assistants.html#example-prompts",
+    "href": "ai-assistants.html#example-prompts",
+    "title": "Appendix F — Use the Atlas in ChatGPT / Claude",
+    "section": "F.4 Example prompts",
+    "text": "F.4 Example prompts\n\n“Any amyloid examples?”\n“Show me the CD3 stain in lymphocytic gastritis”\n“Open the Helicobacter pylori Giemsa slide”\n“Show the PAS stain from this case”\n“Give me a quiz case and don’t tell me the diagnosis”\n\nIn the viewer, use Fullscreen for a larger view and Open in atlas to jump to the case page. While the viewer is inline in the chat, zoom with Ctrl/Cmd + mouse wheel or two fingers.",
+    "crumbs": [
+      "Appendices",
+      "<span class='chapter-number'>F</span>  <span class='chapter-title'>Use in ChatGPT / Claude</span>"
+    ]
+  },
+  {
+    "objectID": "ai-assistants.html#privacy-terms-and-source-code",
+    "href": "ai-assistants.html#privacy-terms-and-source-code",
+    "title": "Appendix F — Use the Atlas in ChatGPT / Claude",
+    "section": "F.5 Privacy, terms and source code",
+    "text": "F.5 Privacy, terms and source code\n\nPrivacy Policy · Terms of Use\nSource code (MIT licence) · Report a problem or suggest a feature\nAtlas images and text are licensed under CC BY 4.0.\n\nThe connector is built on the open MCP Apps standard. To open the slides in QuPath instead, see the QuPath Extension page.",
+    "crumbs": [
+      "Appendices",
+      "<span class='chapter-number'>F</span>  <span class='chapter-title'>Use in ChatGPT / Claude</span>"
     ]
   }
 ]
